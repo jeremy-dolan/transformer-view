@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+*.swp
+.vscode
+.venv
+.env
+private
+untracked*
+.pytest_cache
+.*.drawio.bkp
