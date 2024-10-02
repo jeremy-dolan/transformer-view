@@ -6,7 +6,7 @@
 # Eventually this file can install custom Javascript for hooks onto toolbar, see Drawio API
 
 IN_FILE="src/gpt2.drawio.html"
-OUT_FILE="web/draft-graph.html"
+OUT_FILE="export/draft-graph.html"
 
 cat dev/html2web.preamble > "$OUT_FILE"
 grep '^<body>' "$IN_FILE" >> "$OUT_FILE"

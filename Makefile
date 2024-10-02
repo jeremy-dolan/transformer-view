@@ -14,9 +14,9 @@ all: svg html
 # must use GUI for export; 125% width, 10 border, uncheck all boxes
 #$(DRAW) -x -f svg -o $(OUT_FILE).svg --width 1200 $(IN_FILE)
 svg: src/gpt2.svg
-	mv src/gpt2.svg web/draft-graph.svg
+	mv src/gpt2.svg export/draft-graph.svg
 	cp $(WEB_DIR)/draft-graph.svg $(WEB_DIR)/old/draft-graph.svg
-	cp web/draft-graph.svg $(WEB_DIR)/draft-graph.svg
+	cp export/draft-graph.svg $(WEB_DIR)/draft-graph.svg
 
 # CLI html export not working at all
 # must use GUI for export; 125% width, uncheck all except zoom and fit
@@ -25,7 +25,7 @@ html: src/$(IN_FILE).html
 	dev/html2web
 	rm -f src/$(IN_FILE).html
 	cp $(WEB_DIR)/draft-graph.html $(WEB_DIR)/old/draft-graph.html
-	cp web/draft-graph.html $(WEB_DIR)/draft-graph.html
+	cp export/draft-graph.html $(WEB_DIR)/draft-graph.html
 
 png:
 	$(DRAW) -x -f png -o $(OUT_FILE).png --width $(PNG_WIDTH) $(IN_FILE)
