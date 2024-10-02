@@ -1,11 +1,11 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="GPT2" id="Xu036nFEdmroKifZF8I4">
-    <mxGraphModel dx="2216" dy="840" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1988" dy="700" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-55" value="Attention head (1 of 12)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;swimlaneFillColor=#D5D5D5;" parent="1" vertex="1">
-          <mxGeometry x="586" y="854" width="265" height="594" as="geometry">
+          <mxGeometry x="586" y="864" width="265" height="594" as="geometry">
             <mxRectangle x="574" y="834" width="368" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -19,7 +19,7 @@
           <mxGeometry x="127" y="607" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-51" value="Attention head (1 of 12)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;swimlaneFillColor=#dadada;" parent="1" vertex="1">
-          <mxGeometry x="582" y="850" width="265" height="594" as="geometry">
+          <mxGeometry x="582" y="860" width="265" height="594" as="geometry">
             <mxRectangle x="574" y="834" width="368" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -33,7 +33,7 @@
           <mxGeometry x="127" y="607" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-47" value="Attention head (1 of 12)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;swimlaneFillColor=#E0E0E0;" parent="1" vertex="1">
-          <mxGeometry x="578" y="846" width="265" height="594" as="geometry">
+          <mxGeometry x="578" y="856" width="265" height="594" as="geometry">
             <mxRectangle x="574" y="834" width="368" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -47,7 +47,7 @@
           <mxGeometry x="127" y="607" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-43" value="Attention head (1 of 12)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;swimlaneFillColor=#EFEFEF;" parent="1" vertex="1">
-          <mxGeometry x="574" y="842" width="265" height="594" as="geometry">
+          <mxGeometry x="574" y="852" width="265" height="594" as="geometry">
             <mxRectangle x="574" y="834" width="368" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -61,7 +61,7 @@
           <mxGeometry x="127" y="607" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-39" value="Attention head (1 of 12)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;swimlaneFillColor=#F2f2f2;" parent="1" vertex="1">
-          <mxGeometry x="570" y="838" width="265" height="594" as="geometry">
+          <mxGeometry x="570" y="848" width="265" height="594" as="geometry">
             <mxRectangle x="574" y="834" width="368" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -75,7 +75,7 @@
           <mxGeometry x="127" y="607" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="O5vzstobPXcDMCcWYw32-2" value="Attention head (1 of 12)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;swimlaneFillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="566" y="834" width="265" height="594" as="geometry">
+          <mxGeometry x="566" y="844" width="265" height="594" as="geometry">
             <mxRectangle x="574" y="834" width="368" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -88,156 +88,142 @@
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-33" value="sum" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;verticalAlign=middle;" parent="O5vzstobPXcDMCcWYw32-2" vertex="1">
           <mxGeometry x="127" y="607" width="40" height="15" as="geometry" />
         </mxCell>
+        <mxCell id="07fBRraxJ6-OEmpej10f-1" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#e1d5e7;strokeColor=#9673A6;startSize=2;" parent="O5vzstobPXcDMCcWYw32-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="371" as="sourcePoint" />
+            <mxPoint x="70" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07fBRraxJ6-OEmpej10f-2" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#e1d5e7;strokeColor=#9673A6;startSize=2;" parent="O5vzstobPXcDMCcWYw32-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="72" y="371" as="sourcePoint" />
+            <mxPoint x="72" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07fBRraxJ6-OEmpej10f-3" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#e1d5e7;strokeColor=#9673A6;startSize=2;" parent="O5vzstobPXcDMCcWYw32-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="77" y="371" as="sourcePoint" />
+            <mxPoint x="77" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07fBRraxJ6-OEmpej10f-4" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#e1d5e7;strokeColor=#9673A6;startSize=2;" parent="O5vzstobPXcDMCcWYw32-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="78" y="371" as="sourcePoint" />
+            <mxPoint x="78" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07fBRraxJ6-OEmpej10f-5" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#e1d5e7;strokeColor=#9673A6;startSize=2;" parent="O5vzstobPXcDMCcWYw32-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="79" y="371" as="sourcePoint" />
+            <mxPoint x="79" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07fBRraxJ6-OEmpej10f-24" value="(WIP..)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="O5vzstobPXcDMCcWYw32-2" vertex="1">
+          <mxGeometry x="110" y="498" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#57A85A;fontColor=#1A1A1A;exitPerimeter=0;endArrow=oval;endFill=1;" parent="1" source="SXs5o8TaVD6jqWYS2haX-32" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="745" y="834" as="targetPoint" />
+            <mxPoint x="745" y="844" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-18" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="1661" as="sourcePoint" />
-            <mxPoint x="801" y="1692" as="targetPoint" />
+            <mxPoint x="300" y="1671" as="sourcePoint" />
+            <mxPoint x="801" y="1702" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="801" y="1661" />
+              <mxPoint x="801" y="1671" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Tf8dK1EDaYne_sqmPRFG-32" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="866" as="sourcePoint" />
-            <mxPoint x="801" y="897" as="targetPoint" />
+            <mxPoint x="300" y="876" as="sourcePoint" />
+            <mxPoint x="801" y="907" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="801" y="866" />
+              <mxPoint x="801" y="876" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="m0Mtf9fCQ5Iv8dhjtq92-13" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="633" y="866" as="sourcePoint" />
-            <mxPoint x="633" y="897" as="targetPoint" />
+            <mxPoint x="633" y="876" as="sourcePoint" />
+            <mxPoint x="633" y="907" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oTpKLrHSACD4qn84rfCT-2" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="713" y="866" as="sourcePoint" />
-            <mxPoint x="713" y="897" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Tf8dK1EDaYne_sqmPRFG-33" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;startArrow=none;startFill=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="304" y="870" as="sourcePoint" />
-            <mxPoint x="797" y="897" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="797" y="870" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0Mtf9fCQ5Iv8dhjtq92-14" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="637" y="870" as="sourcePoint" />
-            <mxPoint x="637" y="897" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oTpKLrHSACD4qn84rfCT-3" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="717" y="870" as="sourcePoint" />
-            <mxPoint x="717" y="897" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Tf8dK1EDaYne_sqmPRFG-34" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="308" y="874" as="sourcePoint" />
-            <mxPoint x="793" y="897" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="793" y="874" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oTpKLrHSACD4qn84rfCT-8" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=none;jumpSize=2;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="721" y="874" as="sourcePoint" />
-            <mxPoint x="721" y="897" as="targetPoint" />
+            <mxPoint x="713" y="876" as="sourcePoint" />
+            <mxPoint x="713" y="907" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-3" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#e1d5e7;strokeColor=#9673A6;startSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="1205" as="sourcePoint" />
-            <mxPoint x="630" y="1328" as="targetPoint" />
+            <mxPoint x="630" y="1215" as="sourcePoint" />
+            <mxPoint x="630" y="1338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Tf8dK1EDaYne_sqmPRFG-18" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;horizontal=0;verticalAlign=middle;" parent="1" edge="1">
           <mxGeometry x="0.7311" y="-23" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432" y="332" as="sourcePoint" />
-            <mxPoint x="300" y="1700" as="targetPoint" />
+            <mxPoint x="432" y="342" as="sourcePoint" />
+            <mxPoint x="300" y="1710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="440" y="332" />
-              <mxPoint x="440" y="360" />
-              <mxPoint x="300" y="360" />
+              <mxPoint x="440" y="342" />
+              <mxPoint x="440" y="370" />
+              <mxPoint x="300" y="370" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cyDdZTLPUWvgE6DJaVXe-1" value="residual stream" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];horizontal=0;fontSize=12;labelBackgroundColor=none;" parent="Tf8dK1EDaYne_sqmPRFG-18" vertex="1" connectable="0">
+        <mxCell id="cyDdZTLPUWvgE6DJaVXe-1" value="RESIDUAL STREAM" style="edgeLabel;align=center;verticalAlign=bottom;resizable=0;points=[];horizontal=0;fontSize=9;labelBackgroundColor=none;" parent="Tf8dK1EDaYne_sqmPRFG-18" vertex="1" connectable="0">
           <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Tf8dK1EDaYne_sqmPRFG-19" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432" y="339" as="sourcePoint" />
-            <mxPoint x="304" y="1700" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="444" y="339" />
-              <mxPoint x="444" y="364" />
-              <mxPoint x="304" y="364" />
-            </Array>
+            <mxPoint y="-241" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-1127" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=2;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="793" y="917" as="sourcePoint" />
-            <mxPoint x="790" y="948" as="targetPoint" />
+            <mxPoint x="793" y="927" as="sourcePoint" />
+            <mxPoint x="790" y="958" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="793" y="934" />
-              <mxPoint x="790" y="938" />
+              <mxPoint x="793" y="944" />
+              <mxPoint x="790" y="948" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-1128" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="797" y="917" as="sourcePoint" />
-            <mxPoint x="797" y="948" as="targetPoint" />
+            <mxPoint x="797" y="927" as="sourcePoint" />
+            <mxPoint x="797" y="958" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-19" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;startArrow=none;startFill=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="304" y="1665" as="sourcePoint" />
-            <mxPoint x="797" y="1692" as="targetPoint" />
+            <mxPoint x="304" y="1675" as="sourcePoint" />
+            <mxPoint x="797" y="1702" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="797" y="1665" />
+              <mxPoint x="797" y="1675" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-1129" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=2;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="801" y="917" as="sourcePoint" />
-            <mxPoint x="804" y="948" as="targetPoint" />
+            <mxPoint x="801" y="927" as="sourcePoint" />
+            <mxPoint x="804" y="958" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="801" y="934" />
-              <mxPoint x="804" y="938" />
+              <mxPoint x="801" y="944" />
+              <mxPoint x="804" y="948" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#6C8EBF;fontColor=#1A1A1A;" parent="1" source="Lz4k9k0qgGwZHDiNCSm_-1130" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="633" y="1391" as="targetPoint" />
+            <mxPoint x="633" y="1401" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="790" y="1391" />
+              <mxPoint x="790" y="1401" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-1130" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="788" y="949" width="4" height="256" as="geometry" />
+          <mxGeometry x="788" y="959" width="4" height="256" as="geometry" />
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-1131" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lz4k9k0qgGwZHDiNCSm_-1130" vertex="1">
           <mxGeometry width="4" height="4" as="geometry" />
@@ -753,32 +739,32 @@
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-347" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#ffe6cc;strokeColor=#d79b00;startSize=2;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="713" y="917" as="sourcePoint" />
-            <mxPoint x="710" y="948" as="targetPoint" />
+            <mxPoint x="713" y="927" as="sourcePoint" />
+            <mxPoint x="710" y="958" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="713" y="934" />
-              <mxPoint x="710" y="938" />
+              <mxPoint x="713" y="944" />
+              <mxPoint x="710" y="948" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-348" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#ffe6cc;strokeColor=#d79b00;startSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="717" y="917" as="sourcePoint" />
-            <mxPoint x="717" y="948" as="targetPoint" />
+            <mxPoint x="717" y="927" as="sourcePoint" />
+            <mxPoint x="717" y="958" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-349" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#ffe6cc;strokeColor=#d79b00;startSize=2;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="721" y="917" as="sourcePoint" />
-            <mxPoint x="724" y="948" as="targetPoint" />
+            <mxPoint x="721" y="927" as="sourcePoint" />
+            <mxPoint x="724" y="958" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="721" y="934" />
-              <mxPoint x="724" y="938" />
+              <mxPoint x="721" y="944" />
+              <mxPoint x="724" y="948" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-350" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
-          <mxGeometry x="708" y="949" width="4" height="256" as="geometry" />
+          <mxGeometry x="708" y="959" width="4" height="256" as="geometry" />
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-351" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lz4k9k0qgGwZHDiNCSm_-350" vertex="1">
           <mxGeometry width="4" height="4" as="geometry" />
@@ -1293,7 +1279,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-479" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
-          <mxGeometry x="715" y="949" width="4" height="256" as="geometry" />
+          <mxGeometry x="715" y="959" width="4" height="256" as="geometry" />
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-480" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lz4k9k0qgGwZHDiNCSm_-479" vertex="1">
           <mxGeometry width="4" height="4" as="geometry" />
@@ -1808,7 +1794,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-608" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
-          <mxGeometry x="722" y="949" width="4" height="256" as="geometry" />
+          <mxGeometry x="722" y="959" width="4" height="256" as="geometry" />
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-609" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lz4k9k0qgGwZHDiNCSm_-608" vertex="1">
           <mxGeometry width="4" height="4" as="geometry" />
@@ -2324,50 +2310,50 @@
         </mxCell>
         <mxCell id="5a9QokkaWVo7pU32s1pD-2" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#e1d5e7;strokeColor=#9673A6;startSize=2;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="633" y="917" as="sourcePoint" />
-            <mxPoint x="630" y="948" as="targetPoint" />
+            <mxPoint x="633" y="927" as="sourcePoint" />
+            <mxPoint x="630" y="958" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="633" y="934" />
-              <mxPoint x="630" y="938" />
+              <mxPoint x="633" y="944" />
+              <mxPoint x="630" y="948" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5a9QokkaWVo7pU32s1pD-3" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#e1d5e7;strokeColor=#9673A6;startSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="637" y="917" as="sourcePoint" />
-            <mxPoint x="637" y="948" as="targetPoint" />
+            <mxPoint x="637" y="927" as="sourcePoint" />
+            <mxPoint x="637" y="958" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5a9QokkaWVo7pU32s1pD-4" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#e1d5e7;strokeColor=#9673A6;startSize=2;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="641" y="917" as="sourcePoint" />
-            <mxPoint x="644" y="948" as="targetPoint" />
+            <mxPoint x="641" y="927" as="sourcePoint" />
+            <mxPoint x="644" y="958" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="641" y="934" />
-              <mxPoint x="644" y="938" />
+              <mxPoint x="641" y="944" />
+              <mxPoint x="644" y="948" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-650" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="198" y="275" as="sourcePoint" />
-            <mxPoint x="198" y="329.5" as="targetPoint" />
+            <mxPoint x="198" y="285" as="sourcePoint" />
+            <mxPoint x="198" y="339.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-648" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="154" y="275" as="sourcePoint" />
-            <mxPoint x="154" y="329.5" as="targetPoint" />
+            <mxPoint x="154" y="285" as="sourcePoint" />
+            <mxPoint x="154" y="339.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-646" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="116" y="275" as="sourcePoint" />
-            <mxPoint x="116" y="329.5" as="targetPoint" />
+            <mxPoint x="116" y="285" as="sourcePoint" />
+            <mxPoint x="116" y="339.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MNMadLqcbTMK8ghgTbQA-10" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="20" y="135.56" width="210" height="69" as="geometry" />
+          <mxGeometry x="20" y="145.56" width="210" height="69" as="geometry" />
         </mxCell>
         <mxCell id="TIhiOplXk-bMIoN05m8u-18" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;TOKENIZER&lt;/font&gt;" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=19;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=bottom;horizontal=0;whiteSpace=wrap;html=1;fontColor=#87BA6A;labelBorderColor=none;textShadow=0;shadow=1;" parent="MNMadLqcbTMK8ghgTbQA-10" vertex="1">
           <mxGeometry x="70" width="140" height="69" as="geometry" />
@@ -2405,63 +2391,63 @@
         <mxCell id="RKJ8odA_8SBBd8osXSK1-75" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;3 tokens&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=8;container=0;" parent="MNMadLqcbTMK8ghgTbQA-8" vertex="1">
           <mxGeometry x="5.25" width="40" height="16.5" as="geometry" />
         </mxCell>
-        <mxCell id="RKJ8odA_8SBBd8osXSK1-83" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;3 integers&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=8;container=0;" parent="MNMadLqcbTMK8ghgTbQA-8" vertex="1">
-          <mxGeometry y="25" width="50.5" height="16.5" as="geometry" />
+        <mxCell id="RKJ8odA_8SBBd8osXSK1-83" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;3 token IDs&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=8;container=0;" parent="MNMadLqcbTMK8ghgTbQA-8" vertex="1">
+          <mxGeometry y="26" width="50.5" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="MNMadLqcbTMK8ghgTbQA-41" value="" style="endArrow=blockThin;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;startArrow=none;startFill=0;flowAnimation=0;exitX=0.147;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;startSize=4;endSize=1;" parent="1" source="RKJ8odA_8SBBd8osXSK1-89" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="200" as="sourcePoint" />
-            <mxPoint x="99" y="260" as="targetPoint" />
+            <mxPoint x="310" y="210" as="sourcePoint" />
+            <mxPoint x="99" y="270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="116" y="244" />
-              <mxPoint x="90" y="244" />
-              <mxPoint x="90" y="260" />
+              <mxPoint x="116" y="254" />
+              <mxPoint x="90" y="254" />
+              <mxPoint x="90" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RFhON7jFPDtzm6p8IHRn-1" value="&lt;p style=&quot;line-height: 100%; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b&gt;A Vector-Level View of GPT-2&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Computational-infograph of vector-wise inference in a decoder-only transformer&lt;br&gt;With annotations based on Anthropic&#39;s “&lt;i&gt;&lt;a href=&quot;https://transformer-circuits.pub/2021/framework/&quot;&gt;A Mathematical Framework for Transformer Circuits&lt;/a&gt;”&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;and Neel Nanda&#39;s “&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;i&gt;&lt;a href=&quot;https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J&quot;&gt;Comprehensive Mechanistic Interpretability Explainer &amp;amp; Glossary&lt;/a&gt;”&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry width="850" height="51" as="geometry" />
+        <mxCell id="RFhON7jFPDtzm6p8IHRn-1" value="&lt;p style=&quot;line-height: 100%; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b&gt;A Vector-Level View of GPT-2&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Computational infographic of vector-wise inference in a decoder-only transformer&lt;br&gt;With annotations based on Anthropic&#39;s “&lt;i&gt;&lt;a href=&quot;https://transformer-circuits.pub/2021/framework/&quot;&gt;A Mathematical Framework for Transformer Circuits&lt;/a&gt;”&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;and Neel Nanda&#39;s “&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;i&gt;&lt;a href=&quot;https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J&quot;&gt;Comprehensive Mechanistic Interpretability Explainer &amp;amp; Glossary&lt;/a&gt;”&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="10" width="850" height="51" as="geometry" />
         </mxCell>
         <mxCell id="RKJ8odA_8SBBd8osXSK1-46" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;1 string&lt;br&gt;(18 bytes)&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=8;" parent="1" vertex="1">
-          <mxGeometry x="10.25" y="69.06" width="70" height="20" as="geometry" />
+          <mxGeometry x="10.25" y="79.06" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cKd76CsvtHgX21CRy6J_-13" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;Embedding matrix&lt;/b&gt;&lt;br&gt;\(n_{vocab} \times d_{model}\) = 50,257 \(\times\)&amp;nbsp;768&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Maps token IDs from the tokenizer to token embeddings. Embeddings are \(d_{model}\)-dimensional, dense vectors which the model learns during training.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;For GPT-2 small, a 768-dimensional toke&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;n embedding for each of 50,257 vocabulary items =&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;38,597,376 parameters means&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;\(W_E\)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;comprises 31% of the model&#39;s parameters!&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;strokeColor=#23445d;fillColor=#bac8d3;fontSize=10;whiteSpace=wrap;spacingLeft=5;spacingRight=3;rounded=1;arcSize=10;shadow=1;perimeterSpacing=0;spacingBottom=0;spacing=0;" parent="1" vertex="1">
-          <mxGeometry x="545" y="119" width="278" height="132" as="geometry" />
+        <mxCell id="cKd76CsvtHgX21CRy6J_-13" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;Embedding matrix&lt;/b&gt;&lt;br&gt;\(n_{vocab} \times d_{model}\) = 50,257 \(\times\)&amp;nbsp;768&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;&quot;&gt;A learned lookup table mapping token IDs (from the tokenizer) to token embeddings. Embeddings are high-dimensional dense vectors which the model learns to associate with token IDs during training. The embeddings attempt to capture each token&#39;s discrete meaning (which later layers will operate on and contextualize).&amp;nbsp;How is this meaning represented in the embedding? A central tenet of mechanistic interpretability is that &lt;a style=&quot;font-size: 10px;&quot; href=&quot;https://distill.pub/2020/circuits/zoom-in/#claim-1&quot;&gt;meaningful features are represented by&amp;nbsp;&lt;i&gt;directions&lt;/i&gt; in the embedding space&lt;/a&gt;. However, the&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;embedding space has&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;no privileged basis, so&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;individual components of the learned embeddings are not independently meaningful.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;For GPT-2 Small, the embedding space is 768-dimensional. This&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;means that&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;\(W_E\), with its&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;50,257 vocabulary size,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;comprises&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;38,597,376 paramters —&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;31% of the model&#39;s total! (The ratio drops for larger models [link]).&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;strokeColor=#23445d;fillColor=#bac8d3;fontSize=10;whiteSpace=wrap;spacingLeft=5;spacingRight=3;rounded=1;arcSize=10;shadow=1;perimeterSpacing=0;spacingBottom=0;spacing=0;" parent="1" vertex="1">
+          <mxGeometry x="551" y="82" width="343" height="202" as="geometry" />
         </mxCell>
         <mxCell id="TIhiOplXk-bMIoN05m8u-10" value="" style="endArrow=block;html=1;rounded=0;exitX=0.454;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.804;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;endFill=1;endSize=4;" parent="1" source="RKJ8odA_8SBBd8osXSK1-1" target="RKJ8odA_8SBBd8osXSK1-89" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="95" y="130.56" as="sourcePoint" />
-            <mxPoint x="145" y="80.56" as="targetPoint" />
+            <mxPoint x="95" y="140.56" as="sourcePoint" />
+            <mxPoint x="145" y="90.56" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="154" y="130.56" />
-              <mxPoint x="198" y="130.56" />
+              <mxPoint x="154" y="140.56" />
+              <mxPoint x="198" y="140.56" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TIhiOplXk-bMIoN05m8u-11" value="" style="endArrow=block;html=1;rounded=0;exitX=0.454;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.147;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;endFill=1;endSize=4;" parent="1" source="RKJ8odA_8SBBd8osXSK1-1" target="RKJ8odA_8SBBd8osXSK1-89" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="130.56" as="sourcePoint" />
-            <mxPoint x="70" y="90.56" as="targetPoint" />
+            <mxPoint x="110" y="140.56" as="sourcePoint" />
+            <mxPoint x="70" y="100.56" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="154" y="130.56" />
-              <mxPoint x="116" y="130.56" />
+              <mxPoint x="154" y="140.56" />
+              <mxPoint x="116" y="140.56" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TIhiOplXk-bMIoN05m8u-12" value="" style="endArrow=block;html=1;rounded=0;exitX=0.454;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.454;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;jumpStyle=none;flowAnimation=0;endSize=4;" parent="1" source="RKJ8odA_8SBBd8osXSK1-1" target="RKJ8odA_8SBBd8osXSK1-89" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="130.56" as="sourcePoint" />
-            <mxPoint x="80" y="95.56" as="targetPoint" />
+            <mxPoint x="110" y="140.56" as="sourcePoint" />
+            <mxPoint x="80" y="105.56" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TIhiOplXk-bMIoN05m8u-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;endArrow=oval;endFill=1;" parent="1" source="TIhiOplXk-bMIoN05m8u-19" target="TIhiOplXk-bMIoN05m8u-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MNMadLqcbTMK8ghgTbQA-6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;tokenize&lt;/font&gt;" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=10;html=1;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="137" y="105" width="36" height="12.56" as="geometry" />
+          <mxGeometry x="137" y="115" width="36" height="12.56" as="geometry" />
         </mxCell>
         <mxCell id="MNMadLqcbTMK8ghgTbQA-26" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="75" y="59.06" width="147.5" height="40" as="geometry" />
+          <mxGeometry x="75" y="69.06" width="147.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RKJ8odA_8SBBd8osXSK1-1" value="“Transformer tokens”" style="text;align=center;verticalAlign=middle;rounded=0;container=0;labelBackgroundColor=none;perimeterSpacing=0;strokeColor=default;fillColor=none;comic=0;whiteSpace=wrap;html=1;gradientColor=none;glass=0;shadow=0;noLabel=0;arcSize=0;" parent="MNMadLqcbTMK8ghgTbQA-26" vertex="1">
           <mxGeometry x="22.5" y="9.5" width="125" height="21" as="geometry">
@@ -2473,59 +2459,85 @@
         </mxCell>
         <mxCell id="MNMadLqcbTMK8ghgTbQA-42" value="" style="endArrow=blockThin;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;endFill=1;startArrow=none;startFill=0;jumpStyle=gap;startSize=6;jumpSize=2;flowAnimation=0;exitX=0.451;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;endSize=1;" parent="1" source="RKJ8odA_8SBBd8osXSK1-89" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="145" y="210" as="sourcePoint" />
-            <mxPoint x="99" y="267" as="targetPoint" />
+            <mxPoint x="145" y="220" as="sourcePoint" />
+            <mxPoint x="99" y="277" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="154" y="248" />
-              <mxPoint x="86" y="248" />
-              <mxPoint x="86" y="267" />
+              <mxPoint x="154" y="258" />
+              <mxPoint x="86" y="258" />
+              <mxPoint x="86" y="277" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WXO5dbhDHQhPYTwcq_f_-81" value="" style="endArrow=blockThin;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;endFill=1;startArrow=none;startFill=0;jumpStyle=gap;startSize=6;jumpSize=2;flowAnimation=0;exitX=0.804;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;endSize=1;" parent="1" source="RKJ8odA_8SBBd8osXSK1-89" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="198" y="195" as="sourcePoint" />
-            <mxPoint x="99" y="274" as="targetPoint" />
+            <mxPoint x="198" y="205" as="sourcePoint" />
+            <mxPoint x="99" y="284" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="198" y="252" />
-              <mxPoint x="82" y="252" />
-              <mxPoint x="82" y="274" />
+              <mxPoint x="198" y="262" />
+              <mxPoint x="82" y="262" />
+              <mxPoint x="82" y="284" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf8dK1EDaYne_sqmPRFG-19" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="432" y="349" as="sourcePoint" />
+            <mxPoint x="304" y="1710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="444" y="349" />
+              <mxPoint x="444" y="374" />
+              <mxPoint x="304" y="374" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WXO5dbhDHQhPYTwcq_f_-82" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;lookup&lt;/font&gt;" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=10;html=1;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="109" y="222.72" width="96" height="12.56" as="geometry" />
+          <mxGeometry x="109" y="232.72" width="96" height="12.56" as="geometry" />
         </mxCell>
-        <mxCell id="gQgmHVt73reZ8HHyw90J-79" value="token embeddings&lt;div style=&quot;line-height: 100%;&quot;&gt;3 \(\times\) 768&lt;br&gt;\((n_{tokens} \times d_{model}\))&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=8;" parent="1" vertex="1">
-          <mxGeometry y="254.72" width="80" height="20" as="geometry" />
+        <mxCell id="Tf8dK1EDaYne_sqmPRFG-33" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;startArrow=none;startFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="304" y="880" as="sourcePoint" />
+            <mxPoint x="797" y="907" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="797" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQgmHVt73reZ8HHyw90J-79" value="token embeddings&lt;div style=&quot;line-height: 100%;&quot;&gt;3 \(\times\) 768&lt;br&gt;\((n_{tokens} \times d_{model})\)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry y="264.72" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-636" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;endSize=4;flowAnimation=0;flowAnimationDuration=500;" parent="1" source="aDF84gQzL0mLdbvqMMo0-484" target="WXO5dbhDHQhPYTwcq_f_-82" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="205" y="229.1009523809524" as="targetPoint" />
+            <mxPoint x="205" y="239.1009523809524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTpKLrHSACD4qn84rfCT-3" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="717" y="880" as="sourcePoint" />
+            <mxPoint x="717" y="907" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="$$W_E$$" tooltip="" id="aDF84gQzL0mLdbvqMMo0-484">
           <mxCell style="rounded=0;whiteSpace=wrap;fontSize=10;glass=0;gradientDirection=north;labelBackgroundColor=none;fillStyle=auto;strokeWidth=1;perimeterSpacing=0;fillColor=#bac8d3;strokeColor=#23445d;spacing=0;" parent="1" vertex="1">
-            <mxGeometry x="205" y="214" width="30" height="30" as="geometry" />
+            <mxGeometry x="205" y="224" width="30" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cKd76CsvtHgX21CRy6J_-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=oval;startFill=1;fillColor=#bac8d3;strokeColor=#23445d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aDF84gQzL0mLdbvqMMo0-484" target="cKd76CsvtHgX21CRy6J_-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="725" y="170.56" as="targetPoint" />
-            <mxPoint x="688.5" y="333.98000000000013" as="sourcePoint" />
+            <mxPoint x="725" y="180.56" as="targetPoint" />
+            <mxPoint x="688.5" y="343.98000000000013" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-649" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;add&lt;/span&gt;" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=10;html=1;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="109" y="296.72" width="96" height="12.56" as="geometry" />
+          <mxGeometry x="109" y="306.72" width="96" height="12.56" as="geometry" />
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-654" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;flowAnimation=0;flowAnimationDuration=500;" parent="1" source="aDF84gQzL0mLdbvqMMo0-651" target="aDF84gQzL0mLdbvqMMo0-649" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-651" value="$$W_{P&#39;}$$" style="rounded=0;whiteSpace=wrap;fontSize=10;glass=0;gradientDirection=north;labelBackgroundColor=none;fillStyle=auto;strokeWidth=1;perimeterSpacing=0;fillColor=#bac8d3;strokeColor=#23445d;spacing=0;" parent="1" vertex="1">
-          <mxGeometry x="205" y="293" width="30" height="20" as="geometry" />
+          <mxGeometry x="205" y="303" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-918" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="100" y="251.72" width="332" height="24.28" as="geometry" />
+          <mxGeometry x="100" y="261.72" width="332" height="24.28" as="geometry" />
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-915" value="" style="group" parent="aDF84gQzL0mLdbvqMMo0-918" vertex="1" connectable="0">
           <mxGeometry width="332" height="10.280000000000001" as="geometry" />
@@ -3766,80 +3778,90 @@
             <mxRectangle width="4" height="4" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDF84gQzL0mLdbvqMMo0-1175" value="input embeddings&lt;br&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;3 \(\times\) 768&lt;br&gt;(\(n_{tokens} \times d_{model}\))&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=8;" parent="1" vertex="1">
-          <mxGeometry y="329" width="80" height="20" as="geometry" />
+        <mxCell id="aDF84gQzL0mLdbvqMMo0-1175" value="input embeddings&lt;br&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;3 \(\times\) 768&lt;br&gt;\((n_{tokens} \times d_{model})\)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry y="339" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m0Mtf9fCQ5Iv8dhjtq92-14" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="637" y="880" as="sourcePoint" />
+            <mxPoint x="637" y="907" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Tf8dK1EDaYne_sqmPRFG-21" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432" y="346" as="sourcePoint" />
-            <mxPoint x="308" y="1700" as="targetPoint" />
+            <mxPoint x="432" y="356" as="sourcePoint" />
+            <mxPoint x="308" y="1710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="448" y="346" />
-              <mxPoint x="448" y="368" />
-              <mxPoint x="308" y="368" />
+              <mxPoint x="448" y="356" />
+              <mxPoint x="448" y="378" />
+              <mxPoint x="308" y="378" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LQ3I-0AsPY-4ozPZ8o76-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="aDF84gQzL0mLdbvqMMo0-1176" target="aDF84gQzL0mLdbvqMMo0-651" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aDF84gQzL0mLdbvqMMo0-1176" value="$$W_P$$" style="rounded=0;whiteSpace=wrap;fontSize=10;glass=0;gradientDirection=north;labelBackgroundColor=none;fillStyle=auto;strokeWidth=1;perimeterSpacing=0;fillColor=#bac8d3;strokeColor=#23445d;spacing=0;" parent="1" vertex="1">
-          <mxGeometry x="262" y="288" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LQ3I-0AsPY-4ozPZ8o76-1" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;slice&lt;/font&gt;" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=6;html=1;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="241" y="299" width="15.45" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="cKd76CsvtHgX21CRy6J_-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=oval;startFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#bac8d3;strokeColor=#23445d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="aDF84gQzL0mLdbvqMMo0-1176" target="cKd76CsvtHgX21CRy6J_-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="756.87" y="591.98" as="targetPoint" />
-            <mxPoint x="312" y="300" as="sourcePoint" />
+        <mxCell id="Tf8dK1EDaYne_sqmPRFG-34" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308" y="884" as="sourcePoint" />
+            <mxPoint x="793" y="907" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="793" y="884" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Positional embedding matrix&lt;br&gt;&lt;/b&gt;\(n_{context} \times d_{model}\) = 1,024 \(\times\) 768&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sliced to&amp;nbsp;&lt;/span&gt;align with&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;\(n_{tokens}\)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= 3&amp;nbsp;&lt;/span&gt;\(\times\)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;68&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Adds positional information to each token embedding.&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;A challenge for the&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;transformer architecture is that it is “order invariant”:&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;a&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;lthough the token embeddings are stored within a tensor in their input order, this ordering is not exposed to &lt;i&gt;any&lt;/i&gt; of the computations within the model. But word order matters for language, and nearby tokens are usually much more relevant to predicting the next word than a random token from three pages prior.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;There are many approaches to adding position information (absolute or relative) to the token embeddings or attention calculation. GPT-2 simply parameterizes it, and allows the model itself to figure out how to represent token position.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This means that the size of this matrix must be defined at training time, thereby fixing the maximum sequence length (“context length”) that the model can process.&lt;/span&gt;&lt;/div&gt;" tooltip="TOOL TIP TEST" id="cKd76CsvtHgX21CRy6J_-17">
-          <mxCell style="text;html=1;align=center;verticalAlign=top;strokeColor=#23445d;fillColor=#bac8d3;fontSize=10;whiteSpace=wrap;spacingLeft=5;spacingRight=3;rounded=1;arcSize=10;shadow=1;spacing=0;" parent="1" vertex="1">
-            <mxGeometry x="471.03999999999996" y="262" width="318" height="226" as="geometry" />
-          </mxCell>
-        </UserObject>
+        <mxCell id="aDF84gQzL0mLdbvqMMo0-1176" value="$$W_P$$" style="rounded=0;whiteSpace=wrap;fontSize=10;glass=0;gradientDirection=north;labelBackgroundColor=none;fillStyle=auto;strokeWidth=1;perimeterSpacing=0;fillColor=#bac8d3;strokeColor=#23445d;spacing=0;" parent="1" vertex="1">
+          <mxGeometry x="262" y="298" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ3I-0AsPY-4ozPZ8o76-1" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;slice&lt;/font&gt;" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=6;html=1;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="241" y="309" width="15.45" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cKd76CsvtHgX21CRy6J_-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=oval;startFill=1;fillColor=#bac8d3;strokeColor=#23445d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.197;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aDF84gQzL0mLdbvqMMo0-1176" target="cKd76CsvtHgX21CRy6J_-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="453" y="328" as="targetPoint" />
+            <mxPoint x="312" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" source="Tf8dK1EDaYne_sqmPRFG-39" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="880" as="targetPoint" />
+            <mxPoint x="320" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Tf8dK1EDaYne_sqmPRFG-39" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;branch for&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;first&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;multi-headed attention sublayer&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;fontSize=8;fontStyle=0;arcSize=0;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="315.25" y="904" width="72" height="28" as="geometry" />
+          <mxGeometry x="315.25" y="914" width="72" height="28" as="geometry" />
         </mxCell>
         <UserObject label="$$W_K^{1,1}$$" tooltip="" id="m0Mtf9fCQ5Iv8dhjtq92-2">
           <mxCell style="rounded=0;whiteSpace=wrap;fontSize=10;glass=0;gradientDirection=north;labelBackgroundColor=none;fillStyle=auto;strokeWidth=1;perimeterSpacing=0;fillColor=#FFE0B8;strokeColor=#d79b00;spacing=0;" parent="1" vertex="1">
-            <mxGeometry x="657" y="882" width="50" height="50" as="geometry" />
+            <mxGeometry x="657" y="892" width="50" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="$$W_V^{1,1}$$" tooltip="" id="m0Mtf9fCQ5Iv8dhjtq92-4">
           <mxCell style="rounded=0;whiteSpace=wrap;fontSize=10;glass=0;gradientDirection=north;labelBackgroundColor=none;fillStyle=auto;strokeWidth=1;perimeterSpacing=0;fillColor=#dae8fc;strokeColor=#6c8ebf;spacing=0;" parent="1" vertex="1">
-            <mxGeometry x="737" y="882" width="50" height="50" as="geometry" />
+            <mxGeometry x="737" y="892" width="50" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" parent="1" target="m0Mtf9fCQ5Iv8dhjtq92-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="632" y="1589" as="sourcePoint" />
+            <mxPoint x="632" y="1599" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="632" y="1639" />
-              <mxPoint x="474" y="1639" />
+              <mxPoint x="632" y="1649" />
+              <mxPoint x="474" y="1649" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="m0Mtf9fCQ5Iv8dhjtq92-5" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;add&lt;/span&gt;" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=10;html=1;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="291.75" y="1633" width="24.5" height="12.56" as="geometry" />
+          <mxGeometry x="291.75" y="1643" width="24.5" height="12.56" as="geometry" />
         </mxCell>
         <UserObject label="$$W_Q^{1,1}$$" tooltip="" id="m0Mtf9fCQ5Iv8dhjtq92-1">
           <mxCell style="rounded=0;whiteSpace=wrap;fontSize=10;glass=0;gradientDirection=north;labelBackgroundColor=none;fillStyle=auto;strokeWidth=1;perimeterSpacing=0;fillColor=#e1d5e7;strokeColor=#9673a6;spacing=0;" parent="1" vertex="1">
-            <mxGeometry x="577" y="882" width="50" height="50" as="geometry" />
+            <mxGeometry x="577" y="892" width="50" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="m0Mtf9fCQ5Iv8dhjtq92-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;\(\times\)&lt;/font&gt;" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=14;html=1;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="627" y="897" width="20" height="20" as="geometry" />
+          <mxGeometry x="627" y="907" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O5vzstobPXcDMCcWYw32-4" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="334" y="844" width="50" height="37" as="geometry" />
+          <mxGeometry x="334" y="854" width="50" height="37" as="geometry" />
         </mxCell>
         <mxCell id="SXs5o8TaVD6jqWYS2haX-7" value=" LayerNorm\(^1\)" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;container=0;" parent="O5vzstobPXcDMCcWYw32-4" vertex="1">
           <mxGeometry y="17" width="50" height="20" as="geometry">
@@ -3853,56 +3875,56 @@
           <mxGeometry x="25" width="17" height="17" as="geometry" />
         </mxCell>
         <mxCell id="Tf8dK1EDaYne_sqmPRFG-10" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#f5f5f5;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#666666;fontColor=#333333;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="294" y="620" width="20" height="20" as="geometry" />
+          <mxGeometry x="294" y="630" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Tf8dK1EDaYne_sqmPRFG-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="Tf8dK1EDaYne_sqmPRFG-10" target="SXs5o8TaVD6jqWYS2haX-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="292" y="520" as="sourcePoint" />
+            <mxPoint x="292" y="530" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="O5vzstobPXcDMCcWYw32-42" value="draft!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fillColor=none;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="771.96" y="12" width="60" height="30" as="geometry" />
+          <mxGeometry x="771.96" y="22" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TIhiOplXk-bMIoN05m8u-19" value="&lt;b&gt;Tokenizer&lt;/b&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;div style=&quot;text-align: left; line-height: 90%;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Decomposes the input string into substring tokens based on a predefined dictionary, and outputs the index values for those tokens.&amp;nbsp;The tokenizer is an input pre-processor, rather than part of the transformer architecture itself.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GPT-2 uses a &lt;a href=&quot;https://jeremydolan.net/transformer-view/assets/BPE_tokenization/BPE_tokenization/&quot;&gt;BPE tokenizer&lt;/a&gt; with a&amp;nbsp;vocabulary size&amp;nbsp;of 50,257: all 256 byte values,&amp;nbsp;&lt;a href=&quot;https://openaipublic.blob.core.windows.net/gpt-2/models/124M/vocab.bpe&quot;&gt;50,000 BPE&amp;nbsp;merges&lt;/a&gt;, and a special&amp;nbsp;&lt;font face=&quot;Courier New&quot;&gt;&amp;lt;|endoftext|&amp;gt;&lt;/font&gt;&amp;nbsp;token. (Methods which display tokens &lt;a href=&quot;https://github.com/openai/gpt-2/blob/9b63575ef42771a015060c964af2c3da4cf7c8ab/src/encoder.py#L25&quot;&gt;replace&lt;/a&gt; control and whitespace characters with visible alternatives; thus the space,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;U+0020, in our example input is shown a&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s “Ġ”, U+0120.)&lt;/span&gt;&lt;/div&gt;" style="text;align=center;verticalAlign=top;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=10;whiteSpace=wrap;spacingLeft=5;spacingRight=3;rounded=1;arcSize=10;spacing=0;spacingTop=0;shadow=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="70" width="263" height="152" as="geometry" />
+        <mxCell id="TIhiOplXk-bMIoN05m8u-19" value="&lt;b&gt;Tokenizer&lt;/b&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;div style=&quot;text-align: left; line-height: 90%;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Decomposes an input string into substring tokens based on a predefined dictionary, and outputs the index values for those tokens.&amp;nbsp;The tokenizer is an input pre-processor, rather than part of the transformer architecture itself.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GPT-2 uses a &lt;a href=&quot;https://jeremydolan.net/transformer-view/assets/BPE_tokenization/&quot;&gt;BPE tokenizer&lt;/a&gt; with a&amp;nbsp;vocabulary size&amp;nbsp;of 50,257: all 256 byte values,&amp;nbsp;&lt;a href=&quot;https://openaipublic.blob.core.windows.net/gpt-2/models/124M/vocab.bpe&quot;&gt;50,000 BPE&amp;nbsp;merges&lt;/a&gt;, and a special&amp;nbsp;&lt;font face=&quot;Courier New&quot;&gt;&amp;lt;|endoftext|&amp;gt;&lt;/font&gt;&amp;nbsp;token. (Methods which display tokens &lt;a href=&quot;https://github.com/openai/gpt-2/blob/9b63575ef42771a015060c964af2c3da4cf7c8ab/src/encoder.py#L25&quot;&gt;replace&lt;/a&gt; control and whitespace characters with visible alternatives; thus the space,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;U+0020, in our example input is shown a&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s “Ġ”, U+0120.)&lt;/span&gt;&lt;/div&gt;" style="text;align=center;verticalAlign=top;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=10;whiteSpace=wrap;spacingLeft=5;spacingRight=3;rounded=1;arcSize=10;spacing=0;spacingTop=0;shadow=1;html=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="78" width="263" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="sjC_4Jn6D_5h_oFbE3Uh-1" value="&lt;p style=&quot;line-height: 110%; font-size: 7px;&quot;&gt;Literal sizes are for GPT-2 Small (124 M)&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="8.375" y="17" width="73.75" height="20" as="geometry" />
+        <mxCell id="sjC_4Jn6D_5h_oFbE3Uh-1" value="&lt;p style=&quot;line-height: 110%; font-size: 7px;&quot;&gt;Dimensions given and references to “GPT-2” are for GPT-2 Small (124 M)&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;comic=0;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="2.9350000000000023" y="27" width="84.63" height="20" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Q/K/V projections&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;\(n_{tokens}&amp;nbsp;\times d_{head}\) =&lt;/span&gt; 3 \(\times\) 64&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;Explain:&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;lower dimensional projections selecting some subspace&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;role of each Q/K/V&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;...&lt;/span&gt;&lt;/div&gt;" tooltip="" id="5a9QokkaWVo7pU32s1pD-6">
           <mxCell style="text;align=center;verticalAlign=top;fontSize=10;whiteSpace=wrap;spacingLeft=4;spacingRight=3;rounded=1;arcSize=10;shadow=1;spacing=0;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
-            <mxGeometry x="412.715" y="1036" width="137.52" height="122" as="geometry" />
+            <mxGeometry x="412.715" y="1046" width="137.52" height="122" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;b&gt;Residual stream&lt;br&gt;&lt;/b&gt;\(n_{tokens}&amp;nbsp;\times d_{model}\) = 3 \(\times\) 768&lt;br&gt;(\(d_{model}\)-dimensional latent space)&lt;div&gt;&lt;br&gt;&lt;div style=&quot;line-height: 110%; text-align: left;&quot;&gt;Carries the embeddings and outputs from all prior layer to each subsequent layer of the model.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;The r&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;esidual stream is the&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;a href=&quot;https://transformer-circuits.pub/2021/framework/#residual-comms&quot;&gt;central communication channel&lt;/a&gt; in a transformer; “&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;it doesn&#39;t do any processing itself and all layers communicate through it.”&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Each attention and MLP sublayer&amp;nbsp;reads in the residual stream, performs some computation, and then adds the result back to the residual stream.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;br&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Importantly, this is the only way in which the residual stream is acted on. It is otherwise a “straight shot” between the Embed and Unembed layers. There aren&#39;t any non-linearities or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;multiplicative interactions such as scaling, shearing, or rotation&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;. The embeddings are &lt;i&gt;only&lt;/i&gt; modified via summation with sublayer outputs.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This linear, additive structure has several important consequences. First, &lt;strike&gt;the residual stream is effectively a&amp;nbsp;&lt;/strike&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;strike&gt;series of end-to-end skip connections&lt;/strike&gt;.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Since addition preserves the full gradient during back propagation, the gradient can flow with full magnitude backwards through the residual stream to &lt;/span&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;every layer&lt;/i&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;during training, making it feasible to train very deep models.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Second, &lt;strike&gt;because the residual stream is linear (more than merely linear...)&lt;/strike&gt;, information written by one layer can pass through multiple layers without being destroyed.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;“All components of a transformer (token embedding, attention heads, MLP layers, and Unembed) communicate with each other by reading from and writing to &lt;a href=&quot;https://transformer-circuits.pub/2021/framework/#subspaces-and-residual-stream-bandwidth&quot;&gt;different subspaces&lt;/a&gt; of the residual stream. ... This means that layers can send different information to different layers by storing it in different subspaces. ...&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Once added, information persists in a subspace unless another layer ... deletes it.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;”&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;strike style=&quot;background-color: initial;&quot;&gt;This persistence offers significant flexibility in how information flows through the model:&lt;/strike&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;This means that the computations that transformers perform needn&#39;t run through every layer: computational circuits can optimize their pathing, going, e.g., from an attention head in layer 2, through an MLP in layer 5, to an attention head in layer 8, and so on. [cite NN]&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Each such circuit is free to use its own encoding.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;All of these&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;encoded messages from one layer to another to another are&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;layered on top of another in the residual stream. This makes&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;the residual stream itself not a particularly tractable target for interpretability work. &lt;strike&gt;[instead: decompose the computational paths]&lt;/strike&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;The residual stream can be seen as t&lt;/span&gt;he model&#39;s shared, working memory. It is “&lt;b&gt;the only way that information can move between layers&lt;/b&gt;, and so the model needs to find a way to store all relevant information in there” (&lt;a href=&quot;https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J#z=DHp9vZ0h9lA9OCrzG2Y3rrzH&quot;&gt;NN&lt;/a&gt;)&lt;br&gt;&lt;br&gt;Ergo, under high demand, and expect it to exhibit significant &lt;a href=&quot;https://transformer-circuits.pub/2021/framework/#subspaces-and-residual-stream-bandwidth&quot;&gt;superposition&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" tooltip="" id="SXs5o8TaVD6jqWYS2haX-17">
+        <UserObject label="&lt;b&gt;Residual stream&lt;br&gt;&lt;/b&gt;\(n_{tokens}&amp;nbsp;\times d_{model}\) = 3 \(\times\) 768&lt;br&gt;(\(d_{model}\)-dimensional latent space)&lt;div&gt;&lt;br&gt;&lt;div style=&quot;line-height: 110%; text-align: left;&quot;&gt;Carries the input embeddings, plus the outputs from each sublayer of the model, to each subsequent sublayer.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;The r&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;esidual stream is the&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;a href=&quot;https://transformer-circuits.pub/2021/framework/#residual-comms&quot;&gt;central communication channel&lt;/a&gt; in a transformer; “&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;it doesn&#39;t do any processing itself and all layers communicate [only] through it.” E&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ach attention and MLP sublayer “reads” in the residual stream (via a linear projection), performs some computation, and then “writes” some result back to the residual stream (via element-wise addition).&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;The only way the residual stream is&amp;nbsp;modified is by addition with these sublayer outputs; it is in essence a series of end-to-end skip connections.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;This linear, additive structure has several important consequences. First, because addition preserves the gradient during back propagation, the gradient flows with full magnitude backwards through the residual stream to every layer&amp;nbsp;during training, preventing “vanishing gradients” and making it feasible to train very deep models.&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;Second, the residual connections help prevent the&amp;nbsp;input embeddings and early layer outputs from being&amp;nbsp;overly degraded through repeated transformations. Information written by one layer can preserve through multiple layers without in the use of subspaces: earlier sublayers can communicate to specific later sublayers (or even specific later attention heads) by&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;“w&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;riting to&amp;nbsp;&lt;a href=&quot;https://transformer-circuits.pub/2021/framework/#conceptual-take-aways&quot;&gt;different subspaces&lt;/a&gt;&amp;nbsp;of the residual stream.”&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;A single attention head might “&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;a href=&quot;https://transformer-circuits.pub/2021/framework/#subspaces-and-residual-stream-bandwidth&quot;&gt;send different information to different layers&lt;/a&gt; by storing it in different subspaces.”&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;[Due to sparsity of high dimensional space?] it appears that&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;“information persists in a subspace unless another layer actively deletes it”&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This persistence and the use of subspaces allows the model to optimize how information is pathed through the model. We can conceptualize transformers as implementing computational functions which correspond to particular paths: &lt;i&gt;e.g.&lt;/i&gt;, some function might go&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;from an attention head in layer 2, through an MLP in layer 5, to an attention head in layer 8, and so on. [cite NN]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Each such path&lt;strike&gt;[circuit?]&lt;/strike&gt; is free to use its own encoding.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;All of these&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;encoded messages from one layer to another to another are&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;layered on top of another in the residual stream. This makes&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;the residual stream itself not a particularly tractable target for interpretability work. “&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;Rather than analyze the residual stream vectors, it can be helpful to &lt;a href=&quot;https://transformer-circuits.pub/2021/framework/#conceptual-take-aways&quot;&gt;decompose the residual stream into all these different communication channels&lt;/a&gt;, corresponding to paths through the model.”&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;line-height: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;[Further difficulty for interpreting the residual stream: The residual stream can be seen as t&lt;/span&gt;he model&#39;s shared, working memory. It is “&lt;b&gt;the only way that information can move between layers&lt;/b&gt;, and so the model needs to find a way to store all relevant information in there” (&lt;a href=&quot;https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J#z=DHp9vZ0h9lA9OCrzG2Y3rrzH&quot;&gt;NN&lt;/a&gt;) Ergo, under high demand, and expect it to exhibit significant &lt;a href=&quot;https://transformer-circuits.pub/2021/framework/#subspaces-and-residual-stream-bandwidth&quot;&gt;superposition&lt;/a&gt;.]&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" tooltip="" id="SXs5o8TaVD6jqWYS2haX-17">
           <mxCell style="text;align=center;verticalAlign=top;fontSize=10;whiteSpace=wrap;spacingLeft=5;spacingRight=5;rounded=1;arcSize=5;shadow=1;spacing=0;fillColor=#F0F0F0;fontColor=#333333;strokeColor=#666666;gradientColor=#BFBFBF;html=1;" parent="1" vertex="1">
-            <mxGeometry x="-88" y="420" width="349" height="549" as="geometry" />
+            <mxGeometry x="-94" y="426" width="366" height="536" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;b&gt;Attention head&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;After LayerNorm, vectors are processed in parallel by \(n_{head}\) attention heads (12, in GPT-2). Each head has its own set of QKV weight matrices, produces its own attention pattern, and&lt;br&gt;&lt;br&gt;Attention heads are the &lt;i&gt;only&lt;/i&gt;&amp;nbsp;place in the entire architecture where information can move between tokens. (Embedding can&#39;t, LayerNorms can&#39;t, MLP sublayers can&#39;t, Unembed can&#39;t.) (&lt;a href=&quot;https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J#z=I74AgmPgkyj7w2ZXMTNL51nQ&quot;&gt;NN&lt;/a&gt;)&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" tooltip="" id="SXs5o8TaVD6jqWYS2haX-32">
           <mxCell style="text;align=center;verticalAlign=top;strokeColor=#36393d;fillColor=#cdeb8b;fontSize=10;whiteSpace=wrap;spacingLeft=5;spacingRight=3;rounded=1;arcSize=10;shadow=1;spacing=0;html=1;" parent="1" vertex="1">
-            <mxGeometry x="700" y="666" width="228" height="148" as="geometry" />
+            <mxGeometry x="699" y="676" width="228" height="148" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="oTpKLrHSACD4qn84rfCT-1" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=none;jumpSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="641" y="874" as="sourcePoint" />
-            <mxPoint x="641" y="897" as="targetPoint" />
+            <mxPoint x="641" y="884" as="sourcePoint" />
+            <mxPoint x="641" y="907" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oTpKLrHSACD4qn84rfCT-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;\(\times\)&lt;/font&gt;" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=14;html=1;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="707" y="897" width="20" height="20" as="geometry" />
+          <mxGeometry x="707" y="907" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="oTpKLrHSACD4qn84rfCT-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;\(\times\)&lt;/font&gt;" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=14;html=1;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="787" y="897" width="20" height="20" as="geometry" />
+          <mxGeometry x="787" y="907" width="20" height="20" as="geometry" />
         </mxCell>
         <UserObject label="&lt;b&gt;Causal attention&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Decoder transformers implement causal attention: each embedding can only attend to itself and prior embeddings. In practice this is often implemented by a “masking” step after taking the dot product of all pairs of embeddings. It is displayed here conceptually, with each embedding only interacting with itself and its preceding embeddings.&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" tooltip="" id="oTpKLrHSACD4qn84rfCT-68">
           <mxCell style="text;align=center;verticalAlign=top;fontSize=10;whiteSpace=wrap;spacingLeft=4;spacingRight=3;rounded=1;arcSize=10;shadow=1;spacing=0;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
-            <mxGeometry x="363.19999999999993" y="1196" width="234.55" height="119" as="geometry" />
+            <mxGeometry x="363.19999999999993" y="1206" width="234.55" height="119" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="oTpKLrHSACD4qn84rfCT-75" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#9673a6;fillColor=#F8EBFF;" parent="1" vertex="1">
-          <mxGeometry x="628" y="949" width="4" height="256" as="geometry" />
+          <mxGeometry x="628" y="959" width="4" height="256" as="geometry" />
         </mxCell>
         <mxCell id="oTpKLrHSACD4qn84rfCT-76" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oTpKLrHSACD4qn84rfCT-75" vertex="1">
           <mxGeometry width="4" height="4" as="geometry" />
@@ -4417,7 +4439,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-89" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#9673a6;fillColor=#F8EBFF;" parent="1" vertex="1">
-          <mxGeometry x="635" y="949" width="4" height="256" as="geometry" />
+          <mxGeometry x="635" y="959" width="4" height="256" as="geometry" />
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-90" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lz4k9k0qgGwZHDiNCSm_-89" vertex="1">
           <mxGeometry width="4" height="4" as="geometry" />
@@ -4932,7 +4954,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-218" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#9673a6;fillColor=#F8EBFF;" parent="1" vertex="1">
-          <mxGeometry x="642" y="949" width="4" height="256" as="geometry" />
+          <mxGeometry x="642" y="959" width="4" height="256" as="geometry" />
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-219" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lz4k9k0qgGwZHDiNCSm_-218" vertex="1">
           <mxGeometry width="4" height="4" as="geometry" />
@@ -5447,7 +5469,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-1259" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="795" y="949" width="4" height="256" as="geometry" />
+          <mxGeometry x="795" y="959" width="4" height="256" as="geometry" />
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-1260" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lz4k9k0qgGwZHDiNCSm_-1259" vertex="1">
           <mxGeometry width="4" height="4" as="geometry" />
@@ -5962,7 +5984,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-1388" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="802" y="949" width="4" height="256" as="geometry" />
+          <mxGeometry x="802" y="959" width="4" height="256" as="geometry" />
         </mxCell>
         <mxCell id="Lz4k9k0qgGwZHDiNCSm_-1389" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lz4k9k0qgGwZHDiNCSm_-1388" vertex="1">
           <mxGeometry width="4" height="4" as="geometry" />
@@ -6477,7 +6499,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-919" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="100" y="324" width="332" height="24.28" as="geometry" />
+          <mxGeometry x="100" y="334" width="332" height="24.28" as="geometry" />
         </mxCell>
         <mxCell id="aDF84gQzL0mLdbvqMMo0-920" value="" style="group" parent="aDF84gQzL0mLdbvqMMo0-919" vertex="1" connectable="0">
           <mxGeometry width="332" height="10.280000000000001" as="geometry" />
@@ -7720,96 +7742,110 @@
         </mxCell>
         <mxCell id="O5vzstobPXcDMCcWYw32-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;endArrow=oval;endFill=1;exitX=0.502;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SXs5o8TaVD6jqWYS2haX-26" target="SXs5o8TaVD6jqWYS2haX-7" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="371" y="872" as="targetPoint" />
-            <mxPoint x="840" y="616" as="sourcePoint" />
+            <mxPoint x="371" y="882" as="targetPoint" />
+            <mxPoint x="840" y="626" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SXs5o8TaVD6jqWYS2haX-19" value="LayerNorm" style="swimlane;whiteSpace=wrap;rounded=0;fillColor=#F89696;strokeColor=#b85450;swimlaneFillColor=#FFD4D2;noLabel=0;dropTarget=1;shadow=1;swimlaneLine=0;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="326" y="501" width="356" height="322" as="geometry">
+          <mxGeometry x="326" y="511" width="356" height="322" as="geometry">
             <mxRectangle x="335" y="498" width="357" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SXs5o8TaVD6jqWYS2haX-26" value="&lt;div&gt;Transforms each input vector independently to have mean 0 and variance 1, then scales and shifts each component \(i\) of the normalized vector by&amp;nbsp;a learned scaling factor (\(\gamma_{i}\)) and shifting factor (&lt;span style=&quot;background-color: initial;&quot;&gt;\(\beta_{i}\)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;). &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(Each LayerNorm layer \(n\) has a \(d_{model}\)-length&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;\(W_{\gamma}^n\) and&amp;nbsp;\(W_{\beta}^n\) which is applied component-wise.)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;Purpose:&amp;nbsp;The initial normalization promotes consistent distributions of input to a layer by reducing “covariate shift” &lt;a href=&quot;https://arxiv.org/abs/1607.06450&quot; style=&quot;&quot;&gt;(Ba et al., 2016)&lt;/a&gt;,&amp;nbsp;thereby&amp;nbsp;stabilizing gradients and speeding up training. The parameterized scale and shift then return some flexibility to the model, allowing it to optimize the transformation for each layer.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Implications:&amp;nbsp;In the GPT-2 architecture, LayerNorm&amp;nbsp;mediates every “read” of the residual stream (en route&amp;nbsp;to each attention or MLP sublayer, and before Unembed). Because LayerNorm is a&amp;nbsp;non-linear transformation,&amp;nbsp;it complicates interpretability, which &lt;a href=&quot;https://youtu.be/ll0oduwDEwI?t=3171&quot;&gt;prominent researchers&lt;/a&gt;&amp;nbsp;have &lt;a href=&quot;https://youtu.be/bOYE6E8JrtU?t=3525&quot;&gt;expressed frustration about&lt;/a&gt;.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;In principle, the non-linearity in LayerNorm can perform useful computation, and it can even work as a general-purpose activation function. In practice, within LLM architectures, it is an open question whether LayerNorm performs any “meaningful” computation or if it is merely an artifact of the training process.&amp;nbsp;Attempts have been made to train more interpretable models without LayerNorm, and &lt;a href=&quot;https://www.arxiv.org/abs/2409.13710&quot; style=&quot;&quot;&gt;a recent preprint&lt;/a&gt;&amp;nbsp;claims to have removed GPT-2&#39;s LayerNorm layers with fine-tuning with only minor performance degradation, suggesting it does not play a crucial role&amp;nbsp;at inference time.&lt;/div&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=10;html=1;spacingLeft=3;spacingRight=3;" parent="SXs5o8TaVD6jqWYS2haX-19" vertex="1">
+        <mxCell id="SXs5o8TaVD6jqWYS2haX-26" value="&lt;div&gt;Transforms each input vector independently to have mean 0 and variance 1, then scales and shifts each component \(i\) of the normalized vector by&amp;nbsp;a learned scaling factor (\(\gamma_{i}\)) and shifting factor (&lt;span style=&quot;background-color: initial;&quot;&gt;\(\beta_{i}\)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;). &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(Each LayerNorm layer \(n\) has a \(d_{model}\)-length&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;\(W_{\gamma}^n\) and&amp;nbsp;\(W_{\beta}^n\) which is applied component-wise.)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;Purpose&lt;/b&gt;:&amp;nbsp;The initial normalization promotes consistent distributions of input to a layer by reducing “covariate shift” &lt;a href=&quot;https://arxiv.org/abs/1607.06450&quot; style=&quot;&quot;&gt;(Ba et al., 2016)&lt;/a&gt;,&amp;nbsp;thereby&amp;nbsp;stabilizing gradients and speeding up training. The parameterized scale and shift then return some flexibility to the model, allowing it to optimize the transformation for each layer.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Implications&lt;/b&gt;:&amp;nbsp;In the GPT-2 architecture, LayerNorm&amp;nbsp;mediates every “read” of the residual stream (en route&amp;nbsp;to each attention or MLP sublayer, and before Unembed). Because LayerNorm is a&amp;nbsp;non-linear transformation,&amp;nbsp;it complicates interpretability, which &lt;a href=&quot;https://youtu.be/ll0oduwDEwI?t=3171&quot;&gt;prominent researchers&lt;/a&gt;&amp;nbsp;have &lt;a href=&quot;https://youtu.be/bOYE6E8JrtU?t=3525&quot;&gt;expressed frustration about&lt;/a&gt;.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;In principle, the non-linearity in LayerNorm can perform useful computation, and it can even work as a general-purpose activation function. In practice, within LLM architectures, it is an open question whether LayerNorm performs any “meaningful” computation or if it is merely an artifact of the training process.&amp;nbsp;Attempts have been made to train more interpretable models without LayerNorm, and &lt;a href=&quot;https://www.arxiv.org/abs/2409.13710&quot; style=&quot;&quot;&gt;a recent preprint&lt;/a&gt;&amp;nbsp;claims to have removed GPT-2&#39;s LayerNorm layers with fine-tuning with only minor performance degradation, suggesting it does not play a crucial role&amp;nbsp;at inference time.&lt;/div&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=10;html=1;spacingLeft=3;spacingRight=3;" parent="SXs5o8TaVD6jqWYS2haX-19" vertex="1">
           <mxGeometry y="23" width="358" height="261" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-5" value="" style="endArrow=blockThin;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=1;endSize=2;fillColor=#ffe6cc;strokeColor=#d79b00;startSize=2;curved=0;" parent="1" edge="1">
           <mxGeometry width="641" height="1289" relative="1" as="geometry">
-            <mxPoint x="710" y="1205" as="sourcePoint" />
-            <mxPoint x="631" y="1328" as="targetPoint" />
+            <mxPoint x="709" y="1215" as="sourcePoint" />
+            <mxPoint x="631" y="1338" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="1219" />
-              <mxPoint x="631" y="1219" />
+              <mxPoint x="709" y="1223" />
+              <mxPoint x="631" y="1223" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-10" value="\(n\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#36393d;fillColor=#eeeeee;" parent="cyDdZTLPUWvgE6DJaVXe-5" vertex="1">
-          <mxGeometry x="621" y="1263" width="19" height="19" as="geometry" />
+          <mxGeometry x="660" y="1273" width="19" height="19" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-6" value="dot product" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="621" y="1244" width="120" height="16" as="geometry" />
+          <mxGeometry x="621" y="1254" width="120" height="16" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;b&gt;Q/K/V matrices&lt;br&gt;&lt;/b&gt;\(d_{model}&amp;nbsp;\times d_{head}\) = 768 \(\times\) 64&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Each attention head has its own Query, Key, and Value matrix. Each vector from the residual stream is (after LayerNorm) multiplied by each of these matrices, to form three lower-dimensional projections.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" tooltip="" id="cyDdZTLPUWvgE6DJaVXe-9">
+        <UserObject label="&lt;b&gt;Q/K/V matrices&lt;br&gt;&lt;/b&gt;\(d_{model}&amp;nbsp;\times d_{head}\) = 768 \(\times\) 64&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Each attention head has its own Query, Key, and Value matrix. (In practice they are stored in a single matrix for efficiency, but in principle — Each vector from the residual stream is (after LayerNorm) multiplied by each of these matrices, to form three lower-dimensional projections.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 110%;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" tooltip="" id="cyDdZTLPUWvgE6DJaVXe-9">
           <mxCell style="text;align=center;verticalAlign=top;fontSize=10;whiteSpace=wrap;spacingLeft=4;spacingRight=3;rounded=1;arcSize=10;shadow=1;spacing=0;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
-            <mxGeometry x="398.27" y="898" width="166.41" height="112" as="geometry" />
+            <mxGeometry x="398.27" y="908" width="166.41" height="112" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-11" value="divide by \(\sqrt{d_{head}} = 8\)" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="621" y="1285" width="120" height="16" as="geometry" />
+          <mxGeometry x="621" y="1295" width="120" height="16" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-12" value="softmax" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="621" y="1301" width="40" height="15" as="geometry" />
+          <mxGeometry x="621" y="1311" width="32" height="15" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#1A1A1A;" parent="1" source="cyDdZTLPUWvgE6DJaVXe-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630.454545454545" y="1391" as="targetPoint" />
+            <mxPoint x="630.454545454545" y="1401" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-13" value="\(1\)" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#36393d;fillColor=#eeeeee;fontFamily=Helvetica;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="621" y="1329" width="19" height="19" as="geometry" />
+          <mxGeometry x="621" y="1339" width="19" height="19" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-14" value="softmax" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="661" y="1301" width="40" height="15" as="geometry" />
+          <mxGeometry x="661" y="1311" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-15" value="softmax" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="701" y="1301" width="40" height="15" as="geometry" />
+          <mxGeometry x="701" y="1311" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" source="cyDdZTLPUWvgE6DJaVXe-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="319.75" y="1674" as="targetPoint" />
+            <mxPoint x="319.75" y="1684" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-17" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;branch for&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;first&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MLP&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;sublayer&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;fontSize=8;fontStyle=0;arcSize=0;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="316" y="1698" width="72" height="28" as="geometry" />
+          <mxGeometry x="316" y="1708" width="72" height="28" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-20" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=gap;jumpSize=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="308" y="1669" as="sourcePoint" />
-            <mxPoint x="793" y="1692" as="targetPoint" />
+            <mxPoint x="308" y="1679" as="sourcePoint" />
+            <mxPoint x="793" y="1702" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="793" y="1669" />
+              <mxPoint x="793" y="1679" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-25" value="$$W_O^{1,1}$$" style="rounded=0;whiteSpace=wrap;fontSize=10;glass=0;gradientDirection=north;labelBackgroundColor=none;fillStyle=auto;strokeWidth=1;perimeterSpacing=0;fillColor=#bac8d3;strokeColor=#23445d;spacing=0;" parent="1" vertex="1">
-          <mxGeometry x="607" y="1539" width="50" height="50" as="geometry" />
+          <mxGeometry x="607" y="1549" width="50" height="50" as="geometry" />
         </mxCell>
         <UserObject label="&lt;b&gt;Attention patterns&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" tooltip="" id="cyDdZTLPUWvgE6DJaVXe-29">
           <mxCell style="text;align=center;verticalAlign=top;fontSize=10;whiteSpace=wrap;spacingLeft=4;spacingRight=3;rounded=1;arcSize=10;shadow=1;spacing=0;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
-            <mxGeometry x="368.19999999999993" y="1327" width="224.55" height="57" as="geometry" />
+            <mxGeometry x="368.19999999999993" y="1337" width="224.55" height="57" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-34" value="concat" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="613" y="1456" width="40" height="15" as="geometry" />
+          <mxGeometry x="613" y="1466" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-35" value="concat" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="653" y="1456" width="40" height="15" as="geometry" />
+          <mxGeometry x="653" y="1466" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="cyDdZTLPUWvgE6DJaVXe-36" value="concat" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="693" y="1456" width="40" height="15" as="geometry" />
+          <mxGeometry x="693" y="1466" width="40" height="15" as="geometry" />
         </mxCell>
         <UserObject label="&lt;b&gt;Output projections&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Combines and transforms the information from each attention head; also learned.&lt;/div&gt;&lt;/div&gt;" tooltip="" id="cyDdZTLPUWvgE6DJaVXe-38">
           <mxCell style="text;align=center;verticalAlign=top;fontSize=10;whiteSpace=wrap;spacingLeft=4;spacingRight=3;rounded=1;arcSize=10;shadow=1;spacing=0;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
-            <mxGeometry x="359" y="1484" width="224.55" height="132" as="geometry" />
+            <mxGeometry x="359" y="1494" width="224.55" height="132" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="oTpKLrHSACD4qn84rfCT-8" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=0;flowAnimationDuration=3000;endFill=0;endSize=4;jumpStyle=none;jumpSize=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="721" y="884" as="sourcePoint" />
+            <mxPoint x="721" y="907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07fBRraxJ6-OEmpej10f-21" value="&#39;scale&#39;?" style="rounded=0;align=center;spacing=0;spacingTop=0;spacingLeft=0;fontSize=8;fillColor=#ffcccc;strokeColor=#36393d;whiteSpace=wrap;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="618" y="1392" width="32" height="15" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Positional embedding matrix&lt;br&gt;&lt;/b&gt;\(n_{context} \times d_{model}\) = 1,024 \(\times\) 768&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;A learned lookup table mapping sequence positions to positional encodings. A challenge for the transformer architecture is that it is “order invariant”:&amp;nbsp;although the token embeddings superficially appear to be stored in order, this ordering is not exposed to any of the model&#39;s computation. But for language, order matters.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;There are many approaches to adding position information (absolute or relative)&amp;nbsp; to the token embeddings (or directly to the attention calculation). GPT-2 simply parameterizes it, allowing the model itself to figure out for itself how to represent sequence order. Each row \(i\) of \(W_{P}\) contains a learned “time signal” that is added to token embedding \(i\), thereby marking its position.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This means that the size of this matrix must be defined at training time, thereby fixing the maximum sequence length (“context length”) that the model can process: 1,024 for GPT-2.&lt;/span&gt;&lt;/div&gt;" tooltip="" id="cKd76CsvtHgX21CRy6J_-17">
+          <mxCell style="text;html=1;align=center;verticalAlign=top;strokeColor=#23445d;fillColor=#bac8d3;fontSize=10;whiteSpace=wrap;spacingLeft=5;spacingRight=3;rounded=1;arcSize=10;shadow=1;spacing=0;" parent="1" vertex="1">
+            <mxGeometry x="466" y="297" width="366" height="194" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
