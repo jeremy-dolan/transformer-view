@@ -30,8 +30,7 @@ $(PUB_DIR)/$(PROJECT).svg: $(SRC_DIR)/$(PROJECT).svg
 # must use GUI for export: 125% width, uncheck all except zoom and fit
 $(PUB_DIR)/$(PROJECT).html: $(SRC_DIR)/$(PROJECT).html
 	#$(DRAWIO) -x -f html -z $(HTML_ZOOM) -o $(OUT_FILE).html $(IN_FILE)
-	dev/html2web  PASS ARGS
-	# xxx update that script
+	dev/html2web
 	rm -f $(SRC_DIR)/$(PROJECT).html
 	mkdir -p $(DEPLOY_DIR)/old
 	cp $(DEPLOY_DIR)/$(PROJECT).html $(DEPLOY_DIR)/old/$(PROJECT).html
@@ -41,14 +40,16 @@ clean:
 	find . -name .DS_Store -type f -delete
 
 publish:
+	cp $(PUB_DIR)/preview.png $(DEPLOY_DIR)/preview.png
+	cp $(PUB_DIR)/index.html  $(DEPLOY_DIR)/index.html
 	cp -R assets $(DEPLOY_DIR)
 
 diff:
-	cmp $(DEPLOY_DIR)/$(PROJECT).svg  $(PUB_DIR)/$(PROJECT).svg 
-	cmp $(DEPLOY_DIR)/$(PROJECT).html $(PUB_DIR)/$(PROJECT).html
-	cmp $(DEPLOY_DIR)/preview.png     $(PUB_DIR)/preview.png    
-	diff -u $(DEPLOY_DIR)/index.html  $(PUB_DIR)/index.html || [ $$? -eq 1 ]
-	diff -ru $(DEPLOY_DIR)/assets     assets                || [ $$? -eq 1 ]
+	cmp      $(DEPLOY_DIR)/$(PROJECT).svg    $(PUB_DIR)/$(PROJECT).svg 
+	cmp      $(DEPLOY_DIR)/$(PROJECT).html   $(PUB_DIR)/$(PROJECT).html
+	cmp      $(DEPLOY_DIR)/preview.png $(PUB_DIR)/preview.png
+	diff -u  $(DEPLOY_DIR)/index.html  $(PUB_DIR)/index.html || [ $$? -eq 1 ]
+	diff -ru $(DEPLOY_DIR)/assets      assets || [ $$? -eq 1 ]
 # the disjunct lets make continue if diff returns 1 (differences found)
 
 #png:
