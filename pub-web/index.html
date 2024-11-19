@@ -68,24 +68,21 @@
 			text-align: center;
 		}
 		p { margin-top: 0.75em; }
-        .draft {
+		div.draft {
             text-align: center;
 			margin-bottom: 3rem;
-			font-size: 1.1rem;
         }
-		.draft .head {
-            font-size: 1.3rem;
+		div.view {
+            font-size: 1.75rem;
+			margin-bottom: 3rem;
 		}
-		.draft em {
-			font-size: 1rem;
+		div.with {
+			margin: 10px -20px;
 		}
-		ol.and span {
-			margin-left: -10px;
+		ol.goals p:first-of-type {
+			margin-top: 0;
 		}
-		ol ul {
-			list-style-type: disc;
-		}
-        footer {
+		footer {
             font-size: 0.8em;
             margin-top: 3em;
             margin-bottom: 1em;
@@ -95,51 +92,52 @@
 </head>
 <body>
 	<header>
-		<p class="home-link"><a href="/">jeremydolan.net</a></p>
-        <hr>
         <h1>A Vector-Level View of GPT-2</h1>
         <p>Computational infographic of vector-wise inference in a decoder-only transformer<br><br>
-           With annotations based on Anthropic's <a href="https://transformer-circuits.pub/2021/framework/"><i>A Mathematical Framework for Transformer Circuits</i></a><br>
+           With annotations based on Anthropic's <a href="https://transformer-circuits.pub/2021/framework/"><i>A
+           Mathematical Framework for Transformer Circuits</i></a><br>
            and Neel Nanda's <a href="https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J"><i>Comprehensive Mechanistic Interpretability Explainer &amp; Glossary</i></a>
         </p>
 	</header>
 
-    <div class="draft"><span class="head">View the draft:</span><br>
-		<a href="draft-graph.svg">SVG</a><br>
-		<a href="draft-graph.html">HTML/JS</a>
-		<br><br><a href="/"><em>Feedback very welcome!</em></a>
+    <div class="draft">
+		<div class="view"><a href="gpt2.svg">View the draft</a></div>
+		<a href="/"><em>Feedback welcome!</em></a>
 	</div>
 
 	<p><b>The goal</b> for this graphic is to aid others spinning up on mechanistic interpretability work with
 	transformer models. The idea is to blend...</p>
    
-	<ol class="and">
-		<li><b>A <em>vector-level</em> computational graph</b>
-			<ul>
-				<li>Neural nets are typically implemented as a series of <em>tensor operations</em> because current
-				tooling is highly optimized for these operations. But the most computationally efficient way to
+	<ol class="goals">
+		<li>
+			<b>A <em>vector-level</em> computational graph</b>
+			<div>
+				<p>Neural nets are typically implemented as a series of <em>tensor operations</em> because current
+				tooling is highly optimized for such operations. But the most computationally efficient way to
 				<em>code</em> a neural network isn't necessarily the best way to understand what's going on inside of
-				it. Vectors (embeddings) are the fundamental information-bearing units in transformers, and
-				are&mdash;with few exceptions&mdash;operated on completely independently.</li>
-				<li>A tensor-level perspective is explanatorily nonideal not only because it's hard to think clearly
-				about thousands of high-dimension vectors packed into batch &times; head &times; position &times; d_head
-				tensors. Tensors also obscure the degree to which much of the computation in transformers is
-				vector-wise. For example, <a href="https://arxiv.org/abs/1706.03762">the original transformers paper</a>
-				describes multi-headed attention as involving a “concatenation” of the attention-weighted result vectors
-				from each head, which is then projected back to the residual stream. Implementations and discussion
-				since have conformed with this precedent. But concatenation (for efficiency's sake) obscures the more
-				intuitive way that information can be seen as flowing through attention heads: result vectors can be
-				directly and independently projected back to the residual stream (as depicted in the present diagram),
-				without any unprincipled concatenation.
-			</ul>
+				one. Vectors (embeddings) are the fundamental information-bearing units in transformers, and
+				are&mdash;with few exceptions&mdash;operated on completely independently. An explanation cast in terms
+				of batch &times; head &times; position &times; d_head tensors with thousands of high-dimension vectors
+				packed into them loses focus on how information flows through a transformer model.</p>
+
+				<p>Implementations sometimes even convolute the computational structure of transformers in order to
+				improve performance. For example, <a href="https://arxiv.org/abs/1706.03762">the original transformers
+				paper</a> describes multi-headed attention as involving a “concatenation” of the attention-weighted
+				result vectors from each head, which is then projected back to the residual stream. Implementations and
+				discussion since have largely conformed with this precedent. But concatenation is utterly unprincipled,
+				and it obscures the more intuitive way that information can be seen as flowing through attention heads:
+				result vectors can be directly and independently projected back to the residual stream (as depicted in
+				the present diagram), without any concatenation operation.</p>
+			</div>
 		</li>
-        <span>with,</span>
-		<li><b>A mechanistic interpretability infographic</b>
-			<ul>
-				<li>Existing work (such as Anthropic's excellent <a href="https://transformer-circuits.pub/">Transformer
+        <div class="with">with,</div>
+		<li>
+			<b>A mechanistic interpretability infographic</b>
+			<div>
+				<p>Existing work (such as Anthropic's excellent <a href="https://transformer-circuits.pub/">Transformer
 				Circuits</a> thread) is weighty and our understanding is rapidly evolving. A good primer illustration
-				might help people bootstrap into this important research program.</li>
-			</ul>
+				might help people bootstrap into this important research program.</p>
+			</div>
 		</li>
 	</ol>
 
@@ -159,6 +157,9 @@
 		<li>assumes greater familiarity with the basic operation of transformers,</li>
 		<li>presents additional technical details and conceptualizations relevant to mechanistic interpretability.</li>
 	</ol>
+
+	<p><b>Thanks</b> to my BlueDot colleague Hannes Whittingham for feedback and encouragement. Check out his final
+	project on <a href="https://hannewhitt.github.io/llm-aligned-rl/">Reinforcement Learning from LLM Feedback</a>!</p>
 
 	<!--
 	Other interpretability resources
