@@ -9,3 +9,4 @@ untracked*
 .pytest_cache
 .*.drawio.bkp
 .*.drawio.dtmp
+viewer-static.min.js
