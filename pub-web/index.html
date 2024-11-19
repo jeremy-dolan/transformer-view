@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+	<meta charset="utf-8">
+
+	<!-- Tell clients it's ok to use the device's natively-optimized viewport. Without this, mobile platforms use some
+	desktop-ish width (often 980px) for rendering, and then scale the result to fit the screen. (This is to handle old
+	web pages which assume clients have a desktop-sized display.) -->
+	<meta name="viewport" content="width=device-width">
+
+	<!-- Open Graph properties -->
+	<!-- Used for link previews by Facebook/Twitter/LinkedIn/iMessage/Reddit/Slack/Discord/etc. -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="A Vector-Level View of GPT-2">
+	<meta property="og:image" content="https://jeremydolan.net/transformer-view/preview.png">
+	<meta property="og:url" content="https://jeremydolan.net/transformer-view/">
+	<meta property="og:description" content="Computational infographic of vector-wise inference in a decoder-only transformer">
+
+	<!-- Icons -->
+	<!-- The icon is pixel art so nearest-neighbor upscaling would be fine--but some clients interpolate, and some use
+	the 16x16 icon with 16px of padding instead of upscaling. So we need a 32x32 version, and maybe also 48x48. -->
+	<link rel="icon" sizes="16x16" type="image/png" href="/media/icons/16.png">
+	<link rel="icon" sizes="32x32" type="image/png" href="/media/icons/32.png">
+	<link rel="icon" sizes="48x48" type="image/png" href="/media/icons/48.png">
+	<link rel="apple-touch-icon" sizes="180x180" type="image/png" href="/media/icons/180.png">
+	<!-- NB: There is also an (undeclared) /favicon.ico Microsoft x-icon file containing all three (16, 32, 48) sizes,
+	which is still retrieved when browsers display HTTP error pages, PDFs, images, directory indexes, etc. -->
+
+	<title>A Vector-Level View of GPT-2 - jeremydolan.net</title>
+
+	<style>
+		/*** COLORS ***/
+		/* Meets WCAG recs for contrast ratio */
+		body { background: #ebebeb }
+		body { color: #000000 }
+		a { color: #c00000 }
+		a:active { color: #ff0000 }
+
+		* {	margin: 0; }
+
+		body {
+			font-family: Verdana,Geneva,Helvetica,Arial,sans-serif;
+			/* text-align: center; */
+			max-width: 980px;
+			padding: 0 2em;
+			margin: auto;
+		}
+		header {
+			margin-top: 2em;
+			margin-bottom: 3em;
+			text-align: center;
+		}
+		h1 {
+			font-size: 1.75em;
+			font-weight: bold;
+			margin-top: 1em;
+		}
+		p.home-link {
+			font-size: 0.8em;
+			margin-top: 0;	
+		}
+		hr { margin: 1.5em; }
+		h2 {
+			font-size: 1.1em;
+			font-weight: bold;
+			margin: 1em;
+			text-align: center;
+		}
+		p { margin-top: 0.75em; }
+        .draft {
+            text-align: center;
+			margin-bottom: 3rem;
+			font-size: 1.1rem;
+        }
+		.draft .head {
+            font-size: 1.3rem;
+		}
+		.draft em {
+			font-size: 1rem;
+		}
+		ol.and span {
+			margin-left: -10px;
+		}
+		ol ul {
+			list-style-type: disc;
+		}
+        footer {
+            font-size: 0.8em;
+            margin-top: 3em;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+	</style>
+</head>
+<body>
+	<header>
+		<p class="home-link"><a href="/">jeremydolan.net</a></p>
+        <hr>
+        <h1>A Vector-Level View of GPT-2</h1>
+        <p>Computational infographic of vector-wise inference in a decoder-only transformer<br><br>
+           With annotations based on Anthropic's <a href="https://transformer-circuits.pub/2021/framework/"><i>A Mathematical Framework for Transformer Circuits</i></a><br>
+           and Neel Nanda's <a href="https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J"><i>Comprehensive Mechanistic Interpretability Explainer &amp; Glossary</i></a>
+        </p>
+	</header>
+
+    <div class="draft"><span class="head">View the draft:</span><br>
+		<a href="draft-graph.svg">SVG</a><br>
+		<a href="draft-graph.html">HTML/JS</a>
+		<br><br><a href="/"><em>Feedback very welcome!</em></a>
+	</div>
+
+	<p><b>The goal</b> for this graphic is to aid others spinning up on mechanistic interpretability work with
+	transformer models. The idea is to blend...</p>
+   
+	<ol class="and">
+		<li><b>A <em>vector-level</em> computational graph</b>
+			<ul>
+				<li>Neural nets are typically implemented as a series of <em>tensor operations</em> because current
+				tooling is highly optimized for these operations. But the most computationally efficient way to
+				<em>code</em> a neural network isn't necessarily the best way to understand what's going on inside of
+				it. Vectors (embeddings) are the fundamental information-bearing units in transformers, and
+				are&mdash;with few exceptions&mdash;operated on completely independently.</li>
+				<li>A tensor-level perspective is explanatorily nonideal not only because it's hard to think clearly
+				about thousands of high-dimension vectors packed into batch &times; head &times; position &times; d_head
+				tensors. Tensors also obscure the degree to which much of the computation in transformers is
+				vector-wise. For example, <a href="https://arxiv.org/abs/1706.03762">the original transformers paper</a>
+				describes multi-headed attention as involving a “concatenation” of the attention-weighted result vectors
+				from each head, which is then projected back to the residual stream. Implementations and discussion
+				since have conformed with this precedent. But concatenation (for efficiency's sake) obscures the more
+				intuitive way that information can be seen as flowing through attention heads: result vectors can be
+				directly and independently projected back to the residual stream (as depicted in the present diagram),
+				without any unprincipled concatenation.
+			</ul>
+		</li>
+        <span>with,</span>
+		<li><b>A mechanistic interpretability infographic</b>
+			<ul>
+				<li>Existing work (such as Anthropic's excellent <a href="https://transformer-circuits.pub/">Transformer
+				Circuits</a> thread) is weighty and our understanding is rapidly evolving. A good primer illustration
+				might help people bootstrap into this important research program.</li>
+			</ul>
+		</li>
+	</ol>
+
+	<p><b>This is a draft</b> with some content still missing but shortly forthcoming. It was created for the project
+	phase of BlueDot Impact's AI Safety Fundamentals' <a href="https://aisafetyfundamentals.com/alignment/">AI Alignment
+	Course</a>. Source available on <a href="https://github.com/jeremy-dolan/transformer-view">Github</a> for
+	adaptation.</p>
+
+	<p><b>The target audience</b> has a rough understanding of the transformer architecture but is fuzzy on the
+	specifics, and is interested in becoming familiar with some of the core findings of the mechanistic interpretability
+	research program. This diagram may be a good follow-up to Jay Alamar's introductory piece,
+	<a href="https://jalammar.github.io/illustrated-transformer/">The Illustrated Transformer</a>. I tried to use
+	similar color coding where possible. As compared to that piece, this diagram:
+	<ol>
+		<li>depicts a decoder-only model (GPT-2 124M, a common reference model for interpretability work)
+			rather than an encoder-decoder,</li>
+		<li>assumes greater familiarity with the basic operation of transformers,</li>
+		<li>presents additional technical details and conceptualizations relevant to mechanistic interpretability.</li>
+	</ol>
+
+	<!--
+	Other interpretability resources
+	-->
+
+    <footer>
+		<hr>
+		<a href="/">jeremydolan.net</a>
+	</footer>
+</body>
+</html>
