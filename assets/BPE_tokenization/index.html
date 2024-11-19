@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+	<meta charset="utf-8">
+
+	<!-- Tell clients it's ok to use the device's natively-optimized viewport. Without this, mobile platforms use some
+	desktop-ish width (often 980px) for rendering, and then scale the result to fit the screen. (This is to handle old
+	web pages which assume clients have a desktop-sized display.) -->
+	<meta name="viewport" content="width=device-width">
+
+	<!-- Open Graph properties -->
+	<!-- Used for link previews by Facebook/Twitter/LinkedIn/iMessage/Reddit/Slack/Discord/etc. -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="jeremydolan.net: Research">
+	<meta property="og:image" content="/media/headshot/jd1000.jpeg">
+	<meta property="og:url" content="https://jeremydolan.net/research">
+	<meta property="og:description" content="Doctoral research program on visual perception">
+
+	<!-- Icons -->
+	<!-- The icon is pixel art so nearest-neighbor upscaling would be fine--but some clients interpolate, and some use
+	the 16x16 icon with 16px of padding instead of upscaling. So we need a 32x32 version, and maybe also 48x48. -->
+	<link rel="icon" sizes="16x16" type="image/png" href="/media/icons/16.png">
+	<link rel="icon" sizes="32x32" type="image/png" href="/media/icons/32.png">
+	<link rel="icon" sizes="48x48" type="image/png" href="/media/icons/48.png">
+	<link rel="apple-touch-icon" sizes="180x180" type="image/png" href="/media/icons/180.png">
+	<!-- NB: There is also an (undeclared) /favicon.ico Microsoft x-icon file containing all three (16, 32, 48) sizes,
+	which is still retrieved when browsers display HTTP error pages, PDFs, images, directory indexes, etc. -->
+
+	<title>A Vector-Level View of GPT-2 - jeremydolan.net</title>
+
+	<style>
+		/*** COLORS ***/
+		/* Meets WCAG recs for contrast ratio */
+		body { background: #ebebeb }
+		body { color: #000000 }
+		a { color: #c00000 }
+		a:active { color: #ff0000 }
+
+		* {	margin: 0; }
+
+		body {
+			font-family: Verdana,Geneva,Helvetica,Arial,sans-serif;
+			/* text-align: center; */
+			max-width: 980px;
+			padding: 0 2em;
+			margin: auto;
+		}
+		header {
+			margin-top: 2em;
+			margin-bottom: 2.5em;
+			text-align: center;
+		}
+		h1 {
+			font-size: 1.75em;
+			font-weight: bold;
+			margin-top: 1em;
+		}
+		p.home-link {
+			font-size: 0.8em;
+			margin-top: 0;	
+		}
+		hr { margin: 1.5em; }
+		h2 {
+			font-size: 1.1em;
+			font-weight: bold;
+			margin: 1em;
+			text-align: center;
+		}
+		p { margin-top: 0.75em; }
+        .abrupt-link {
+            font-size: 1.25em;
+            text-align: center;
+			margin-bottom: 2.5em;
+        }
+		ol.and span {
+			margin-left: -10px;
+		}
+        footer {
+            font-size: 0.8em;
+            margin-top: 3em;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+	</style>
+</head>
+<body>
+	<p>Placeholder explanatory material courtesy of Claude:</p>
+	<p><img src="BPE_tokenization.png"></p>
+    <p>Back to <a href="/transformer-view">A Vector-Level View of GPT-2</a></p>
+</body>
+</html>
