@@ -6,28 +6,30 @@ PUB_DIR=pub-web
 DEPLOY_DIR=~/code/jeremydolan.net/live/transformer-view
 
 ZOOM=125
+SCALE=1.25
 BORDER=10
-WIDTH=1800
 
 all: svg html clean publish
 svg: $(PUB_DIR)/$(PROJECT).svg
 html: $(PUB_DIR)/$(PROJECT).html
 
-# SVG EXPORT
-# NB: CLI svg export has a bug with LaTeX rendering, I've opened an issue:
-#     https://github.com/jgraph/drawio-desktop/issues/1874
-# must use GUI for export: 125% width, 10 border, uncheck all boxes
+### SVG EXPORT ###
+# CLI svg export of LaTeX math was fixed in v24.8.0 but lacks anti-aliasing.
+# See my open issue: https://github.com/jgraph/drawio-desktop/issues/1874
+# Must manually export in GUI before running this recipe.
+# GUI export settings: 125% width, 10 border, uncheck all boxes
 $(PUB_DIR)/$(PROJECT).svg: $(SRC_DIR)/$(PROJECT).svg
-	#$(DRAWIO) -x -f svg -o $(PUB_DIR)/$(PROJECT).svg --width $(WIDTH) $(SRC_DIR)/$(PROJECT).drawio
-	mv $(SRC_DIR)/$(PROJECT).svg $(PUB_DIR)/$(PROJECT).svg
+	#$(DRAWIO) -x -f svg -o $(PUB_DIR)/$(PROJECT).svg --scale $(SCALE) $(SRC_DIR)/$(PROJECT).drawio
+	mv $(SRC_DIR)/$(PROJECT).svg $(PUB_DIR)/
 	mkdir -p $(DEPLOY_DIR)/old
-	cp $(DEPLOY_DIR)/$(PROJECT).svg $(DEPLOY_DIR)/old/$(PROJECT).svg
-	cp $(PUB_DIR)/$(PROJECT).svg $(DEPLOY_DIR)/$(PROJECT).svg
+	mv $(DEPLOY_DIR)/$(PROJECT).svg $(DEPLOY_DIR)/old/
+	cp $(PUB_DIR)/$(PROJECT).svg $(DEPLOY_DIR)/
 
-
-# HTML+JS EXPORT
-# NB: CLI html export is just not working at all
-# must use GUI for export: 125% width, uncheck all except zoom and fit
+### HTML+JS EXPORT ###
+# CLI html export not working at all.
+# See: https://github.com/jgraph/drawio-desktop/issues/1902
+# Must manually export in GUI before running this recipe.
+# GUI export settings: 125% width, uncheck all boxes except 'zoom' and 'fit'
 $(PUB_DIR)/$(PROJECT).html: $(SRC_DIR)/$(PROJECT).html
 	#$(DRAWIO) -x -f html -z $(HTML_ZOOM) -o $(OUT_FILE).html $(IN_FILE)
 	dev/html2web
