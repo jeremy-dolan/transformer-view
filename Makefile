@@ -30,10 +30,10 @@ $(PUB_DIR)/$(PROJECT).svg: $(SRC_DIR)/$(PROJECT).svg
 # See: https://github.com/jgraph/drawio-desktop/issues/1902
 # Must manually export in GUI before running this recipe.
 # GUI export settings: 125% width, uncheck all boxes except 'zoom' and 'fit'
-$(PUB_DIR)/$(PROJECT).html: $(SRC_DIR)/$(PROJECT).html
+$(PUB_DIR)/$(PROJECT).html: $(SRC_DIR)/$(PROJECT).drawio.html
 	#$(DRAWIO) -x -f html -z $(HTML_ZOOM) -o $(OUT_FILE).html $(IN_FILE)
 	dev/html2web
-	rm -f $(SRC_DIR)/$(PROJECT).html
+	rm -f $(SRC_DIR)/$(PROJECT).drawio.html
 	mkdir -p $(DEPLOY_DIR)/old
 	cp $(DEPLOY_DIR)/$(PROJECT).html $(DEPLOY_DIR)/old/$(PROJECT).html
 	cp $(PUB_DIR)/$(PROJECT).html $(DEPLOY_DIR)/$(PROJECT).html
