@@ -9,9 +9,13 @@ ZOOM=125
 SCALE=1.25
 BORDER=10
 
+.PHONY: all svg html clean publish pub-html pub-preview pub-assets diff
 all: svg html clean publish
 svg: $(PUB_DIR)/$(PROJECT).svg
 html: $(PUB_DIR)/$(PROJECT).html
+clean:
+	find . -name .DS_Store -type f -delete
+publish: pub-html pub-preview pub-assets
 
 ### SVG EXPORT ###
 # CLI svg export of LaTeX math was fixed in v24.8.0 but lacks anti-aliasing.
@@ -38,21 +42,29 @@ $(PUB_DIR)/$(PROJECT).html: $(SRC_DIR)/$(PROJECT).drawio.html
 	cp $(DEPLOY_DIR)/$(PROJECT).html $(DEPLOY_DIR)/old/$(PROJECT).html
 	cp $(PUB_DIR)/$(PROJECT).html $(DEPLOY_DIR)/$(PROJECT).html
 
-clean:
-	find . -name .DS_Store -type f -delete
-
-publish:
-	cp $(PUB_DIR)/preview.png $(DEPLOY_DIR)/preview.png
+pub-html: $(DEPLOY_DIR)/index.html
+$(DEPLOY_DIR)/index.html: $(PUB_DIR)/index.html
+	@echo Publishing updated index.html...
 	cp $(PUB_DIR)/index.html  $(DEPLOY_DIR)/index.html
-	cp -R assets $(DEPLOY_DIR)
+
+pub-preview: $(DEPLOY_DIR)/preview.png
+$(DEPLOY_DIR)/preview.png: $(PUB_DIR)/preview.png
+	@echo Publishing updated preview.png...
+	cp $(PUB_DIR)/preview.png $(DEPLOY_DIR)/preview.png
+
+# -vrtpog: verbose, recursive, preserve time/perm/owner/group
+# --delete: delete extraneous files from destination dir
+pub-assets:
+	@echo Syncing assets...
+	rsync -v -rtpog --delete assets/ $(DEPLOY_DIR)/assets
+	@echo done
 
 diff:
-	cmp      $(DEPLOY_DIR)/$(PROJECT).svg    $(PUB_DIR)/$(PROJECT).svg 
-	cmp      $(DEPLOY_DIR)/$(PROJECT).html   $(PUB_DIR)/$(PROJECT).html
-	cmp      $(DEPLOY_DIR)/preview.png $(PUB_DIR)/preview.png
-	diff -u  $(DEPLOY_DIR)/index.html  $(PUB_DIR)/index.html || [ $$? -eq 1 ]
-	diff -ru $(DEPLOY_DIR)/assets      assets || [ $$? -eq 1 ]
-# the disjunct lets make continue if diff returns 1 (differences found)
+	-cmp      $(DEPLOY_DIR)/$(PROJECT).svg    $(PUB_DIR)/$(PROJECT).svg 
+	-cmp      $(DEPLOY_DIR)/$(PROJECT).html   $(PUB_DIR)/$(PROJECT).html
+	-cmp      $(DEPLOY_DIR)/preview.png       $(PUB_DIR)/preview.png
+	-diff -u  $(DEPLOY_DIR)/index.html        $(PUB_DIR)/index.html
+	-diff -ru $(DEPLOY_DIR)/assets            assets
 
 #png:
 #	$(DRAWIO) -x -f png -o $(OUT_FILE).png --width $(WIDTH) $(IN_FILE)
