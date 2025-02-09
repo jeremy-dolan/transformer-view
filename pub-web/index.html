@@ -69,21 +69,25 @@
 			margin: 1em;
 			text-align: center;
 		}
-		p { margin-top: 0.75em; }
+		p {
+			margin: 0.75em 0;
+		}
+		p.with {
+			margin: 0.75em -20px;
+		}
 		div.draft {
             text-align: center;
 			margin-bottom: 3rem;
         }
 		div.view {
             font-size: 1.75rem;
-			margin-bottom: 3rem;
-		}
-		div.with {
-			margin: 10px -20px;
+			margin-bottom: 4rem;
+			margin-top: 4rem;
 		}
 		ol.goals p:first-of-type {
 			margin-top: 0;
 		}
+		/* ol.goals li::marker { font-weight: bold; } */
 		footer {
             font-size: 0.8em;
             margin-top: 3em;
@@ -96,93 +100,107 @@
 	<header>
         <h1>A Vector-Level View of GPT-2</h1>
         <p>Computational infographic of vector-wise inference in a decoder-only transformer<br><br>
-           With annotations based on Anthropic's <a href="https://transformer-circuits.pub/2021/framework/"><i>A
+           With annotations based on Anthropic’s <a href="https://transformer-circuits.pub/2021/framework/"><i>A
            Mathematical Framework for Transformer Circuits</i></a><br>
-           and Neel Nanda's <a href="https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J"><i>Comprehensive Mechanistic Interpretability Explainer &amp; Glossary</i></a>
+           and Neel Nanda’s <a href="https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J"><i>Comprehensive Mechanistic Interpretability Explainer &amp; Glossary</i></a>
         </p>
 	</header>
 
     <div class="draft">
-		<div class="view"><a href="gpt2.svg">View the draft</a></div>
-		<a href="/"><em>Feedback welcome!</em></a>
+		<div class="view"><a href="gpt2.svg">View the graphic</a></div>
+		Source on <a href="https://github.com/jeremy-dolan/transformer-view">Github</a></p>
+		<a href="https://docs.google.com/document/d/1F_kcOAr5N37XkE2eVdhn8BWnlX2SkCDvf5z63fN_zVU/edit"><em>Feedback welcome!</em></a>
 	</div>
 
-	<p><b>The goal</b> for this graphic is to aid others spinning up on mechanistic interpretability work with
-	transformer models. The idea is to blend...</p>
+	<p>This graphic situates some of the core insights from the mechanistic interpretability research program in a
+	visual walkthrough of a transformer model. The goal is to blend...</p>
    
 	<ol class="goals">
 		<li>
 			<b>A <em>vector-level</em> computational graph</b>
 			<div>
-				<p>Neural nets are typically implemented as a series of <em>tensor operations</em> because current
-				tooling is highly optimized for such operations. But the most computationally efficient way to
-				<em>code</em> a neural network isn't necessarily the best way to understand what's going on inside of
-				one. Vectors (embeddings) are the fundamental information-bearing units in transformers, and
-				are&mdash;with few exceptions&mdash;operated on completely independently. An explanation cast in terms
-				of batch &times; head &times; position &times; d_head tensors with thousands of high-dimension vectors
-				packed into them loses focus on how information flows through a transformer model.</p>
+				<p>Neural networks are typically implemented as a series of <em>tensor operations</em> because modern
+				tooling is highly optimized for the parallelized matrix multiplications that tensors facilitate. But the
+				most computationally efficient way to <em>code</em> a neural network isn’t necessarily the best way to
+				understand how it works. Vectors (aka embeddings) are the fundamental information-bearing units in
+				transformers, and are—with few exceptions—operated on completely independently. Discussions
+				framed in terms of [batch &times; head &times; position &times; d_head] tensors, where thousands of
+				high-dimensional vectors are packed together, can lose focus on how information actually flows through
+				the model.</p>
 
-				<p>Implementations sometimes even convolute the computational structure of transformers in order to
-				improve performance. For example, <a href="https://arxiv.org/abs/1706.03762">the original transformers
-				paper</a> describes multi-headed attention as involving a “concatenation” of the attention-weighted
-				result vectors from each head, which is then projected back to the residual stream. Implementations and
-				discussion since have largely conformed with this precedent. But concatenation is utterly unprincipled,
-				and it obscures the more intuitive way that information can be seen as flowing through attention heads:
-				result vectors can be directly and independently projected back to the residual stream (as depicted in
-				the present diagram), without any concatenation operation.</p>
+				<p>Implementations sometimes even permute the computational structure of the architecture for
+				efficiency. For example, <a href="https://arxiv.org/abs/1706.03762">the original transformers paper</a>
+				describes multi-headed attention as involving a concatenation of the result vectors from each head,
+				which is then projected back to the residual stream. Implementations and discussion since has largely
+				adhered to this structuring. But concatenation is an unprincipled operation that obscures the natural
+				way information flows through attention heads: result vectors are independently meaningful, and they can
+				be directly and independently projected back to the residual stream without any concatenation
+				operation.</p>
 			</div>
 		</li>
-        <div class="with">with,</div>
+
+        <p class="with">with,</p>
+
 		<li>
 			<b>A mechanistic interpretability infographic</b>
 			<div>
-				<p>Existing work (such as Anthropic's excellent <a href="https://transformer-circuits.pub/">Transformer
-				Circuits</a> thread) is weighty and our understanding is rapidly evolving. A good primer illustration
-				might help people bootstrap into this important research program.</p>
+				<p>Existing work (such as Anthropic’s excellent <a href="https://transformer-circuits.pub/">Transformer
+				Circuits</a> thread) is weighty, and our understanding is rapidly evolving. A good primer might help
+				people bootstrap into this important research program.</p>
 			</div>
 		</li>
 	</ol>
 
-	<p><b>This is a draft</b> with some content still missing but shortly forthcoming. It was created for the project
-	phase of BlueDot Impact's AI Safety Fundamentals' <a href="https://aisafetyfundamentals.com/alignment/">AI Alignment
-	Course</a>. Source available on <a href="https://github.com/jeremy-dolan/transformer-view">Github</a> for
-	adaptation.</p>
+	<p>The intended audience already has a rough understanding of the transformer architecture. If a refresher is
+	needed, I recommend Jay Alamar’s <a href="https://jalammar.github.io/illustrated-transformer/">The Illustrated
+	Transformer</a>. Note that my diagram depicts a decoder-only model (GPT-2 124M, a common reference model for
+	interpretability work) rather than the original encoder-decoder architecture depicted in Alamar’s piece.</p>
 
-	<p><b>The target audience</b> has a rough understanding of the transformer architecture but is fuzzy on the
-	specifics, and is interested in becoming familiar with some of the core findings of the mechanistic interpretability
-	research program. This diagram may be a good follow-up to Jay Alamar's introductory piece,
-	<a href="https://jalammar.github.io/illustrated-transformer/">The Illustrated Transformer</a>. I tried to use
-	similar color coding where possible. As compared to that piece, this diagram:
-	<ol>
-		<li>depicts a decoder-only model (GPT-2 124M, a common reference model for interpretability work)
-			rather than an encoder-decoder,</li>
-		<li>assumes greater familiarity with the basic operation of transformers,</li>
-		<li>presents additional technical details and conceptualizations relevant to mechanistic interpretability.</li>
-	</ol>
-
-	<p><b>Thanks</b> to my BlueDot colleague Hannes Whittingham for feedback and encouragement. Check out his final
-	project on <a href="https://hannewhitt.github.io/llm-aligned-rl/">Reinforcement Learning from LLM Feedback</a>!</p>
+	<p><i>Created for BlueDot Impact’s AI Safety Fundamentals’ <a href="https://aisafetyfundamentals.com/alignment/">AI
+	Alignment Course</a>. Thanks to Hannes Whittingham for feedback and encouragement; check out his final project on <a
+	href="https://hannewhitt.github.io/llm-aligned-rl/">Reinforcement Learning from LLM Feedback</a>!</i></p>
 
 	<hr>
-	<p><b>Main sources</b></p>
+	<p><b>Sources</b></p>
 	<ul>
 		<li>Anthropic interpretability team:
-			<a href="https://transformer-circuits.pub/2021/framework/">A Mathematical Framework for Transformer Circuits</a></li>
-		<li>DeepMind mechanistic interpretability team:
-			<a href="https://www.alignmentforum.org/posts/iGuwZTHWb6DFY3sKB/fact-finding-attempting-to-reverse-engineer-factual-recall">
-			Fact Finding: Attempting to Reverse-Engineer Factual Recall on the Neuron Level</a></li>
 			<ul>
-				<li>Cf: <a href="https://rome.baulab.info/">ROME</a>, <a href="https://memit.baulab.info/">MEMIT</a></li>
+				<li>The <a href="https://transformer-circuits.pub/">Transformer Circuits</a> series of papers,
+				particularly: <a href="https://transformer-circuits.pub/2021/framework/">A Mathematical Framework for
+				Transformer Circuits</a></li>
+				<li><a href="https://www.youtube.com/playlist?list=PLoyGOS2WIonajhAVqKUgEMNmeq3nEeM51">Transformer
+				Circuits: rough early thoughts</a> (series of research talks)</li>
 			</ul>
+		</li>
+		<li>DeepMind mechanistic interpretability team:
+			<ul>
+				<li><a href="https://www.alignmentforum.org/posts/iGuwZTHWb6DFY3sKB/fact-finding-attempting-to-reverse-engineer-factual-recall">Fact
+				Finding: Attempting to Reverse-Engineer Factual Recall on the Neuron Level</a></li>
+			</ul>
+		</li>
+		<li>Neel Nanda:
+			<ul>
+				<li><a href="https://www.youtube.com/watch?v=bOYE6E8JrtU">What is a Transformer?</a> video</li>
+				<li><a href="https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J">Comprehensive Mechanistic Interpretability
+				Explainer &amp; Glossary</a></li>
+			</ul>
+		</li>
 	</ul>
-	<p><b>Or if you'd like some more introductory resources</b></p>
+	<p><b>Recommended introductory resources</b></p>
 	<ul>
 		<li>Jay Alamar:
-			<a href="https://jalammar.github.io/illustrated-transformer/">The Illustrated Transformer</a></li>
+			<ul>
+				<li><a href="https://jalammar.github.io/illustrated-transformer/">The Illustrated Transformer</a></li>
+			</ul>
+		</li>
 		<li>3blue1brown:
+			<ul>
+				<li>The <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">deep learning</a> video series, particularly:
 			<a href="https://www.youtube.com/watch?v=wjZofJX0v4M">Transformers</a>,
 			<a href="https://www.youtube.com/watch?v=eMlx5fFNoYc">Attention</a>, and
 			<a href="https://www.youtube.com/watch?v=9-Jl0dxWQs8">How might LLMs store facts</a></li>
+			</ul>
+		</li>
 	</ul>
 
     <footer>
