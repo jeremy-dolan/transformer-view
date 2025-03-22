@@ -75,7 +75,7 @@
 		p.with {
 			margin: 0.75em -20px;
 		}
-		div.draft {
+		div.links {
             text-align: center;
 			margin-bottom: 3rem;
         }
@@ -86,6 +86,9 @@
 		}
 		ol.goals p:first-of-type {
 			margin-top: 0;
+		}
+		p.acknowledge {
+			font-style: italic;
 		}
 		/* ol.goals li::marker { font-weight: bold; } */
 		footer {
@@ -106,10 +109,10 @@
         </p>
 	</header>
 
-    <div class="draft">
-		<div class="view"><a href="gpt2.svg">View the graphic</a></div>
-		Source on <a href="https://github.com/jeremy-dolan/transformer-view">Github</a></p>
-		<a href="https://docs.google.com/document/d/1F_kcOAr5N37XkE2eVdhn8BWnlX2SkCDvf5z63fN_zVU/edit"><em>Feedback welcome!</em></a>
+	<div class="links">
+		<a href="gpt2.svg">Return to graphic</a> ||
+		<a href="https://github.com/jeremy-dolan/transformer-view">Source code</a> ||
+		<a href="gpt2.md">Text only version</a>
 	</div>
 
 	<p>This graphic situates some of the core insights from the mechanistic interpretability research program in a
@@ -156,9 +159,9 @@
 	Transformer</a>. Note that my diagram depicts a decoder-only model (GPT-2 124M, a common reference model for
 	interpretability work) rather than the original encoder-decoder architecture depicted in Alamar’s piece.</p>
 
-	<p><i>Created for BlueDot Impact’s AI Safety Fundamentals’ <a href="https://aisafetyfundamentals.com/alignment/">AI
-	Alignment Course</a>. Thanks to Hannes Whittingham for feedback and encouragement; check out his final project on <a
-	href="https://hannewhitt.github.io/llm-aligned-rl/">Reinforcement Learning from LLM Feedback</a>!</i></p>
+	<p class="acknowledge">Created for BlueDot Impact’s AI Safety Fundamentals’ <a href="https://aisafetyfundamentals.com/alignment/">AI
+	Alignment Course</a>. Thanks to <a
+	href="https://hannewhitt.github.io/llm-aligned-rl/">Hannes Whittingham</a> for feedback and encouragement.</p>
 
 	<hr>
 	<p><b>Sources</b></p>
